@@ -1,0 +1,9 @@
+{
+    "al.assemblyProbingPaths": [
+        "./.netpackages",
+        "C:/Program Files (x86)/Microsoft Dynamics 365 Business Central/150/RoleTailored Client/",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/150/Service/Add-ins"
+    ],
+    "CRS.ObjectNamePrefix": "SCS",
+    "CRS.AlSubFolderName": "None"
+}
