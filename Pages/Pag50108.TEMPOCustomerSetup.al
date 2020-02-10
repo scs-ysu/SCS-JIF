@@ -1,4 +1,4 @@
-page 50108 "SCSJIFTEMPO - Customer Setup"
+page 50108 "TEMPO - Customer Setup"
 {
     DeleteAllowed = false;
     InsertAllowed = false;
@@ -65,45 +65,6 @@ page 50108 "SCSJIFTEMPO - Customer Setup"
                     Caption = 'Prohibit invoicing of  Auto-Created task''s lines';
                 }
 
-                field(TemplateWorkbook; "Template Workbook")
-                {
-                    ApplicationArea = All;
-
-                    trigger OnLookup(var Text: Text): Boolean
-                    var
-                        FileMgmt: Codeunit "File Management";
-                        Filename: Text;
-                    begin
-                        FileName := FileMgmt.OpenFileDialog(TextSelectWorkbook, '', '');
-
-                        if "Filename Template" = '' then
-                            Error('');
-
-                        "Template Workbook" := FileName;
-                    end;
-
-                    trigger OnValidate()
-                    var
-                        FileMgmt: Codeunit "File Management";
-                    begin
-                        if not FileMgmt.ClientFileExists("Template Workbook") then
-                            Error(TextWorkbookNotFound);
-
-                    end;
-                }
-                field(TargetFolder; "Target Folder")
-                {
-                    ApplicationArea = All;
-
-                    trigger OnLookup(var Text: Text): Boolean
-                    begin
-                        exit(BrowseFolder(Text, "Target Folder", FieldCaption("Target Folder")));
-                    end;
-                }
-                field(FilenameTemplate; "Filename Template")
-                {
-                    ApplicationArea = All;
-                }
             }
         }
     }
@@ -121,7 +82,7 @@ page 50108 "SCSJIFTEMPO - Customer Setup"
                     Promoted = true;
                     PromotedCategory = Process;
                     PromotedIsBig = true;
-                    RunObject = Page "SCSJIFJIRA/Tempo-Custom Field";
+                    RunObject = Page "JIRA/Tempo-Custom Field";
                     RunPageLink = Customer = field("No.");
                 }
             }

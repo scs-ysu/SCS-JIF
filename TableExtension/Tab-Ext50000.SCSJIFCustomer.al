@@ -105,21 +105,6 @@ tableextension 50000 "SCSJIFCustomer" extends Customer
             MaxValue = 60;
             MinValue = 0;
         }
-        field(50220; "Template Workbook"; Text[250])
-        {
-            DataClassification = CustomerContent;
-
-        }
-        field(50230; "Target Folder"; Text[250])
-        {
-            DataClassification = CustomerContent;
-
-        }
-        field(50240; "Filename Template"; Text[250])
-        {
-            DataClassification = CustomerContent;
-
-        }
     }
 
     keys

@@ -1,4 +1,4 @@
-table 50105 "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"
+table 50105 "JIRA/Tempo-Wrklgs, Cstom fld"
 {
     // version SCS1.00
 

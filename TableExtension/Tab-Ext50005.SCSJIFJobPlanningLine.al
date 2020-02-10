@@ -18,7 +18,7 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
 
             trigger OnLookup()
             var
-                JIRASetup: Record "SCSJIFJIRA/Tempo-Setup";
+                JIRASetup: Record "JIRA/Tempo-Setup";
             begin
                 if "Jira Issue Key" <> '' then begin
                     JIRASetup.Get;

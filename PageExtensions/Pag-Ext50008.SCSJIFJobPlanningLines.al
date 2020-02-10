@@ -95,7 +95,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
         }
         addfirst(FactBoxes)
         {
-            part(Control1000000017; "SCSJIFTempo - Planning Line FB")
+            part(Control1000000017; "Tempo - Planning Line FB")
             {
                 ApplicationArea = All;
                 SubPageLink = "Job No." = field("Job No."),
@@ -122,7 +122,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
 
                 trigger OnAction()
                 var
-                    MovePlanningLines: Page "SCSJIFTempo - Move Plan Lines";
+                    MovePlanningLines: Page "Tempo - Move Plan Lines";
                     Rec2: Record "Job Planning Line";
                 begin
 

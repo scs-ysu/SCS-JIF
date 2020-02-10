@@ -35,7 +35,7 @@ codeunit 50102 "SCSJIFEvent Subscribers"
 
         TempJobPlanningLine: Record "Job Planning Line" temporary;
         CompanyInfo: Record "Company Information";
-        gTempoSetup: Record "SCSJIFJIRA/Tempo-Setup";
+        gTempoSetup: Record "JIRA/Tempo-Setup";
         gRepricingMode: Boolean;
 
 

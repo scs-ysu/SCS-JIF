@@ -63,7 +63,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
         addlast(FactBoxes)
         {
-            part(AttachmentsFB; "SCSJIFAttachments")
+            part(AttachmentsFB; "Attachments")
             {
                 ApplicationArea = All;
             }
@@ -74,30 +74,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
     actions
     {
-        // Add changes to page actions here
-        addafter("&Statistics")
-        {
-            action(SCSExcelTimesheet)
-            {
-                ApplicationArea = All;
-                Caption = 'Excel Timesheet';
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
-
-                trigger OnAction()
-                var
-                    JobPlanningLine: Record "Job Planning Line";
-                begin
-                    TestField("Bill-to Customer No.");
-                    TestField("Job Posting Group");
-                    JobPlanningLine.SetRange("Bill-to Customer No.", "Bill-to Customer No.");
-                    JobPlanningLine.SetRange("Job Posting Group", "Job Posting Group");
-                    Report.RunModal(Report::"SCSJIFCreate Excel Timesheet", true, false, JobPlanningLine);
-                end;
-            }
-
-        }
+        // Add changes to page actions here        
         addlast(Processing)
         {
             group(SCSDetails)
@@ -206,7 +183,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = true;
-                    RunObject = Page "SCSJIFJIRA/Tempo-Accounts work";
+                    RunObject = Page "JIRA/Tempo-Accounts work";
                     RunPageMode = View;
 
                     trigger OnAction()
@@ -222,7 +199,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                                 ENU = 'Synchronization Log';
                     Promoted = true;
                     PromotedCategory = Category5;
-                    RunObject = Page "SCSJIF Tempo - Processing Log";
+                    RunObject = Page "Tempo - Processing Log";
                 }
                 action(SCSOpenJira)
                 {
@@ -236,7 +213,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
                     trigger OnAction()
                     var
-                        JiraSetup: Record "SCSJIFJIRA/Tempo-Setup";
+                        JiraSetup: Record "JIRA/Tempo-Setup";
                     begin
                         JiraSetup.Get;
                         HyperLink(JiraSetup."Tempo Servlet Base URL");
@@ -251,7 +228,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = false;
-                    RunObject = Page "SCSJIFTEMPO - Customer Setup";
+                    RunObject = Page "TEMPO - Customer Setup";
                 }
                 action(SCSTempoIntegrationSetup)
                 {
@@ -262,7 +239,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = false;
-                    RunObject = Page "SCSJIFTEMPO- Integration Setup";
+                    RunObject = Page "TEMPO- Integration Setup";
                 }
             }
             group("SCSJIRA/Tempo Lines")
@@ -275,7 +252,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Image = List;
                     Promoted = true;
                     PromotedCategory = Category6;
-                    RunObject = Page "SCSJIFTempo-Pln Lns 2Inv(ext)";
+                    RunObject = Page "Tempo-Plan Lines 2Inv(ext)";
                 }
                 action(SCSAllPlanningLinesExt)
                 {
@@ -286,7 +263,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category6;
                     PromotedIsBig = true;
-                    RunObject = Page "SCSJIFTempo-All Plan Lines Ext";
+                    RunObject = Page "Tempo-All Plan Lines Ext";
                 }
                 action(SCSAllPlanningLinesInt)
                 {
@@ -297,7 +274,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category6;
                     PromotedIsBig = true;
-                    RunObject = Page "SCSJIFTempo All Plan Lines Int";
+                    RunObject = Page "Tempo All Plan Lines Int";
                 }
             }
         }

@@ -1,4 +1,4 @@
-table 50104 "SCSJIFJIRA/Tempo-Cst Fld Map"
+table 50104 "JIRA/Tempo-Custom Field Map."
 {
     // version SCS1.00
 
@@ -139,7 +139,7 @@ table 50104 "SCSJIFJIRA/Tempo-Cst Fld Map"
 
     procedure ValidateRec()
     var
-        Rec2: Record "SCSJIFJIRA/Tempo-Cst Fld Map";
+        Rec2: Record "JIRA/Tempo-Custom Field Map.";
     begin
         if "Mapping Type" <> xRec."Mapping Type" then begin
             Validate("From Value");

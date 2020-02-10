@@ -1,4 +1,4 @@
-table 50102 "SCSJIFJIRA/Tempo-Setup"
+table 50102 "JIRA/Tempo-Setup"
 {
     // version SCS1.00
 

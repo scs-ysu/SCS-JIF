@@ -1,4 +1,4 @@
-page 50106 "SCSJIFAttachments"
+page 50106 "Attachments"
 {
 
     DeleteAllowed = true;
@@ -7,7 +7,7 @@ page 50106 "SCSJIFAttachments"
     PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "SCSJIFAttachment Management";
+    SourceTable = "Attachment Management";
     Caption = 'SCS Attachment';
     layout
     {

@@ -1,4 +1,4 @@
-page 50100 "SCSJIFJIRA/Tempo-Accounts work"
+page 50100 "JIRA/Tempo-Accounts work"
 {
 
     DeleteAllowed = false;
@@ -7,7 +7,7 @@ page 50100 "SCSJIFJIRA/Tempo-Accounts work"
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "SCSJIFJIRA/Tempo-Accounts work";
+    SourceTable = "JIRA/Tempo-Accounts workfile";
     Caption = 'JIRA/Tempo-Accounts work';
     layout
     {
@@ -89,7 +89,7 @@ page 50100 "SCSJIFJIRA/Tempo-Accounts work"
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = false;
-                RunObject = Page "SCSJIFJIRA/Tempo-Worklogs work";
+                RunObject = Page "JIRA/Tempo-Worklogs work";
                 RunPageLink = "TEMPO Account ID" = field("JIRA/Tempo Account ID");
                 RunPageMode = View;
                 ApplicationArea = All;

@@ -1,9 +1,9 @@
-page 50102 "SCSJIFTEMPO- Integration Setup"
+page 50102 "TEMPO- Integration Setup"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Tasks;
-    SourceTable = "SCSJIFJIRA/Tempo-Setup";
+    SourceTable = "JIRA/Tempo-Setup";
     Caption = 'TEMPO- Integration Setup';
     layout
     {

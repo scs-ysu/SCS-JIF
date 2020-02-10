@@ -20,7 +20,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         TxtParseError: TextConst DEU = 'Illegal XML response received from TEMPO-Servlet. Try URL in browser: %1', ENU = 'Illegal XML response received from TEMPO-Servlet. Try URL in browser: %1';
         TxtSendRequestError: TextConst DEU = 'Send request ended with error code %1, description %2.', ENU = 'Send request ended with error code %1, description %2.';
         TxtAccountSynched: TextConst DEU = 'Tempo account %2 for customer %1 passed the filter, adding to accounts workfile. ', ENU = 'Tempo account %2 for customer %1 passed the filter, adding to accounts workfile. ';
-        gLog: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        gLog: Record "JIRA/Tempo-Sync Log file";
         TxtGETtingURL: TextConst DEU = 'Getting URL: %1', ENU = 'Getting URL: %1';
         TxtLoadingTempoAccounts: TextConst DEU = 'Loading Tempo accounts to workfile...', ENU = 'Loading Tempo accounts to workfile...';
         TxtLoadingTempoWorklogs: TextConst DEU = 'Loading Tempo worklogs to workfile...', ENU = 'Loading Tempo worklogs to workfile...';
@@ -71,10 +71,10 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         exit('');
     end;
 
-    procedure LoadTempoAccounts(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; pCustomerFilter: Text; pJobFilter: Text)
+    procedure LoadTempoAccounts(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; pCustomerFilter: Text; pJobFilter: Text)
     var
         Job: Record Job;
-        TempoSetup: Record "SCSJIFJIRA/Tempo-Setup";
+        TempoSetup: Record "JIRA/Tempo-Setup";
         TempoServletUrl: Text;
         TempFileName: Text;
         xmlNodeList: DotNet IXMLDOMNodeList;
@@ -233,9 +233,9 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         end;
     end;
 
-    procedure LoadTempoWorkLogs(var pTempoAccounts: Record "SCSJIFJIRA/Tempo-Accounts work"; var pTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"; pCustomerFilter: Text; pJobFilter: Text; pFromDate: Date; pToDate: Date)
+    procedure LoadTempoWorkLogs(var pTempoAccounts: Record "JIRA/Tempo-Accounts workfile"; var pTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"; pCustomerFilter: Text; pJobFilter: Text; pFromDate: Date; pToDate: Date)
     var
-        JiraSetup: Record "SCSJIFJIRA/Tempo-Setup";
+        JiraSetup: Record "JIRA/Tempo-Setup";
         httpRequest: DotNet XMLHTTPRequestClass;
         Url: Text;
         TempFileName: Text;
@@ -257,11 +257,11 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         l: Integer;
         ValTxt: Text;
         Pos: Integer;
-        TempoAccountInError: Record "SCSJIFJIRA/Tempo-Accounts work";
-        TempoWorkLogInError: Record "SCSJIFJIRA/Tempo-Worklogs work";
+        TempoAccountInError: Record "JIRA/Tempo-Accounts workfile";
+        TempoWorkLogInError: Record "JIRA/Tempo-Worklogs workfile";
         MemoText: BigText;
         OStream: OutStream;
-        TempoWorkLog: Record "SCSJIFJIRA/Tempo-Worklogs work";
+        TempoWorkLog: Record "JIRA/Tempo-Worklogs workfile";
         WorkDescription: Text;
     begin
         Log(gLog.Severity::Debug, TxtLoadingTempoWorklogs);
@@ -470,11 +470,11 @@ codeunit 50100 "SCSJIF TEMPO Integration"
             until pTempoAccounts.Next = 0;
     end;
 
-    procedure UpdateNAVJob(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; pFromDate: Date; pToDate: Date)
+    procedure UpdateNAVJob(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; pFromDate: Date; pToDate: Date)
     var
         Job: Record Job;
         JobTask: Record "Job Task";
-        TempoAccountInError: Record "SCSJIFJIRA/Tempo-Accounts work";
+        TempoAccountInError: Record "JIRA/Tempo-Accounts workfile";
         Changed: Boolean;
         JobExists: Boolean;
         ConfigTemplateHdr: Record "Config. Template Header";
@@ -571,7 +571,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
             TempoAccountInError.Delete;
     end;
 
-    procedure PostprocessNavJob(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; pFromDate: Date; pToDate: Date)
+    procedure PostprocessNavJob(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; pFromDate: Date; pToDate: Date)
     var
         Job: Record Job;
     begin
@@ -626,9 +626,9 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         end;
     end;
 
-    procedure UpdateNAVJobPlanningLine(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; var pTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld")
+    procedure UpdateNAVJobPlanningLine(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; var pTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld")
     var
-        TempoWorkLogInError: Record "SCSJIFJIRA/Tempo-Worklogs work";
+        TempoWorkLogInError: Record "JIRA/Tempo-Worklogs workfile";
     begin
         Log(gLog.Severity::Debug, TxtUpdatingJobPlanningLines);
         gTempoIntegrationController.UpdateProgressWindowPhase(TxtUpdatingJobPlanningLines);
@@ -646,7 +646,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
             TempoWorkLogInError.Delete;
     end;
 
-    procedure UpdateNAVJobPlanningLine2(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; var pTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"; pProcessExpenses: Boolean)
+    procedure UpdateNAVJobPlanningLine2(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; var pTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"; pProcessExpenses: Boolean)
     var
         Job: Record Job;
         JobTask: Record "Job Task";
@@ -864,9 +864,9 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         end;
     end;
 
-    procedure SetAccountInError(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; ErrorMessage: Text)
+    procedure SetAccountInError(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; ErrorMessage: Text)
     var
-        TempoAccountInError: Record "SCSJIFJIRA/Tempo-Accounts work";
+        TempoAccountInError: Record "JIRA/Tempo-Accounts workfile";
         Job: Record Job;
     begin
         if TempoAccountInError.Get(pTempoAccount."JIRA/Tempo Account ID") then begin
@@ -887,9 +887,9 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         Log(gLog.Severity::Warning, ErrorMessage);
     end;
 
-    procedure SetWorkLogInError(var pTempoWorklog: Record "SCSJIFJIRA/Tempo-Worklogs work"; ErrorMessage: Text)
+    procedure SetWorkLogInError(var pTempoWorklog: Record "JIRA/Tempo-Worklogs workfile"; ErrorMessage: Text)
     var
-        TempoWorkLogInError: Record "SCSJIFJIRA/Tempo-Worklogs work";
+        TempoWorkLogInError: Record "JIRA/Tempo-Worklogs workfile";
         Job: Record Job;
         JobPlanningLine: Record "Job Planning Line";
     begin
@@ -1031,7 +1031,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
             Error(Message);
     end;
 
-    procedure ComputeJobTaskNo(var pTempoAccount: Record "SCSJIFJIRA/Tempo-Accounts work"; var pTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"): Code[20]
+    procedure ComputeJobTaskNo(var pTempoAccount: Record "JIRA/Tempo-Accounts workfile"; var pTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"): Code[20]
     var
         Customer: Record Customer;
         Job: Record Job;
@@ -1254,9 +1254,9 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         Customer.FindFirst;
     end;
 
-    procedure StoreCustomField(var pTempoAccounts: Record "SCSJIFJIRA/Tempo-Accounts work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"; WorkLogID: Text[30]; FromFieldName: Text[30]; FromValue: Text[30])
+    procedure StoreCustomField(var pTempoAccounts: Record "JIRA/Tempo-Accounts workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"; WorkLogID: Text[30]; FromFieldName: Text[30]; FromValue: Text[30])
     var
-        TempoCustomFieldMapping: Record "SCSJIFJIRA/Tempo-Cst Fld Map";
+        TempoCustomFieldMapping: Record "JIRA/Tempo-Custom Field Map.";
     begin
 
         with TempoCustomFieldMapping do begin
@@ -1306,7 +1306,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         end;
     end;
 
-    procedure ApplyCustomFields(var pJobPlanningLine: Record "Job Planning Line"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"; pEditable: Boolean): Boolean
+    procedure ApplyCustomFields(var pJobPlanningLine: Record "Job Planning Line"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"; pEditable: Boolean): Boolean
     var
         RecRef: RecordRef;
         FldRef: FieldRef;
@@ -1350,7 +1350,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         exit(true);
     end;
 
-    procedure GetCustomField(var pTempoWorkLogs: Record "SCSJIFJIRA/Tempo-Worklogs work"; var pTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld"; pToFieldNo: Integer): Text[30]
+    procedure GetCustomField(var pTempoWorkLogs: Record "JIRA/Tempo-Worklogs workfile"; var pTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld"; pToFieldNo: Integer): Text[30]
     begin
 
         with pTempoCustomFields do begin

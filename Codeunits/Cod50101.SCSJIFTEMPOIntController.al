@@ -38,19 +38,19 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
     end;
 
     var
-        gTempTempoAccounts: Record "SCSJIFJIRA/Tempo-Accounts work" temporary;
-        gCurrTempoAccounts: Record "SCSJIFJIRA/Tempo-Accounts work";
-        gTempTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work" temporary;
-        gCurrTempoWorklogs: Record "SCSJIFJIRA/Tempo-Worklogs work";
+        gTempTempoAccounts: Record "JIRA/Tempo-Accounts workfile" temporary;
+        gCurrTempoAccounts: Record "JIRA/Tempo-Accounts workfile";
+        gTempTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile" temporary;
+        gCurrTempoWorklogs: Record "JIRA/Tempo-Worklogs workfile";
         TxtErrOnWorkLogLvl: Label 'Error occured on Work Log level.';
         TxtSyncErr: Label 'NAV <-> Jira synchronization failed. Action: "%1". Error message: %2';
         TxtDsplPrjInErr: Label 'NAV <-> Jira synchronization failed for some projects. Do you want to display projects in error?';
-        gTempTempoCustomFields: Record "SCSJIFJIRA/Tempo-Wrklgs,Cstfld" temporary;
+        gTempTempoCustomFields: Record "JIRA/Tempo-Wrklgs, Cstom fld" temporary;
         gCustomerFilter: Text;
         gJobFilter: Text;
         gFromDate: Date;
         gToDate: Date;
-        gTempLog: Record "SCSJIFJIRA/Tempo-Snyc Log file" temporary;
+        gTempLog: Record "JIRA/Tempo-Sync Log file" temporary;
         gTempoIntegration: Codeunit "SCSJIF TEMPO Integration";
         TxtSyncStarted: TextConst DEU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.', ENU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.';
         TxtSyncEnded: TextConst DEU = 'Tempo Sync ended.', ENU = 'Tempo Sync ended.';
@@ -61,8 +61,8 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
     procedure RunSyncProcess(pCustomerFilter: Text; pJobFilter: Text; pFromDate: Date; pToDate: Date)
     var
         ParmFunction: Record "Name/Value Buffer";
-        TempoAccountsInError: Record "SCSJIFJIRA/Tempo-Accounts work";
-        TempoIntegrationSetup: Record "SCSJIFJIRA/Tempo-Setup";
+        TempoAccountsInError: Record "JIRA/Tempo-Accounts workfile";
+        TempoIntegrationSetup: Record "JIRA/Tempo-Setup";
     begin
         //
         // load data from JIRA/TEMPO and update to NAV jobs, tasks, and planning lines
@@ -110,7 +110,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
         if GuiAllowed then
             if not TempoAccountsInError.IsEmpty then
                 if Confirm(TxtDsplPrjInErr) then
-                    Page.Run(Page::"SCSJIFJIRA/Tempo-Accounts work");
+                    Page.Run(Page::"JIRA/Tempo-Accounts work");
     end;
 
     local procedure UpdateNAV(pCustomerFilter: Text; pJobFilter: Text)
@@ -199,7 +199,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure Log(Severity: Option; Message: Text)
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "JIRA/Tempo-Sync Log file";
         i: Integer;
         NextId: Integer;
     begin
@@ -226,7 +226,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure FlushLog()
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "JIRA/Tempo-Sync Log file";
         NextId: Integer;
     begin
         if not gTempLog.FindSet then exit;
@@ -244,7 +244,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
         gTempLog.DeleteAll; // single instance CU
     end;
 
-    procedure GetNextLogId(var Log: Record "SCSJIFJIRA/Tempo-Snyc Log file"): Integer
+    procedure GetNextLogId(var Log: Record "JIRA/Tempo-Sync Log file"): Integer
     begin
         if Log.FindLast then
             exit(Log.Id + 1)
@@ -254,7 +254,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure ClearLog()
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "JIRA/Tempo-Sync Log file";
     begin
         Log.DeleteAll;
     end;

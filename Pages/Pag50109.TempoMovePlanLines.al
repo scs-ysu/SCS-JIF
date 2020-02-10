@@ -1,4 +1,4 @@
-page 50109 "SCSJIFTempo - Move Plan Lines"
+page 50109 "Tempo - Move Plan Lines"
 {
 
 
@@ -42,7 +42,7 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
 
                     trigger OnValidate()
                     var
-                        MoveLineSub: Page "SCSJIFTempo - Planning Line FB";
+                        MoveLineSub: Page "Tempo - Planning Line FB";
                     begin
                     end;
                 }
@@ -94,7 +94,7 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
 
                 trigger OnAction()
                 var
-                    MoveLinesSub: Page "SCSJIFTempo - Planning Line FB";
+                    MoveLinesSub: Page "Tempo - Planning Line FB";
                 begin
                     if not FindFirst then
                         Error(TxtNoLinesSelected);

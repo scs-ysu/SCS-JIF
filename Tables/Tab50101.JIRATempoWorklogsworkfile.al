@@ -1,4 +1,4 @@
-table 50101 "SCSJIFJIRA/Tempo-Worklogs work"
+table 50101 "JIRA/Tempo-Worklogs workfile"
 {
     // version SCS1.00
 

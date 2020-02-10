@@ -1,14 +1,14 @@
-page 50110 "SCSJIFTempo-All Plan Lines Ext"
+page 50105 "Tempo-Plan Lines 2Inv(ext)"
 {
-
-    Caption = 'Tempo - All Planning Lines (External information only)';
+    Caption = 'Tempo - Planning Lines to Invoice (External information only)';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Job Planning Line";
     SourceTableView = sorting("Job No.", "Job Task No.", "Line No.")
                       where("Line Type" = filter(<> Budget),
-                            "Hold From Invoicing" = filter(<> true));
+                            "Hold From Invoicing" = filter(<> true),
+                            "Qty. to Invoice" = filter(> 0));
 
     layout
     {
@@ -57,7 +57,6 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
                 field(No; "No.")
                 {
                     ApplicationArea = All;
-                    StyleExpr = gStyleNo;
                 }
                 field(WorkTypeCode; "Work Type Code")
                 {
@@ -94,7 +93,6 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
                 }
                 field(UnitPrice; "Unit Price")
                 {
-                    ApplicationArea = All;
                 }
                 field(TotalPrice; "Total Price")
                 {
@@ -124,21 +122,79 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
                 {
                     ApplicationArea = All;
                 }
-                field(InvoiceList; InvoiceList)
-                {
-                    ApplicationArea = All;
-                    CaptionML = DEU = 'Rechnung(en)',
-                                ENU = 'Invoice(s)';
-                }
                 field(TaskType; "Task Type")
                 {
                     ApplicationArea = All;
                 }
             }
+            group(Control1000000035)
+            {
+                Caption = 'Details'; // to do caption not mentioned
+                grid(Totals)
+                {
+                    Caption = 'Totals';
+                    GridLayout = Rows;
+                    group(TTLsValue)
+                    {
+                        CaptionML = DEU = 'Wert',
+                                    ENU = 'Value';
+                        field(TotalValue; TotalValue)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Summe',
+                                        ENU = 'Total';
+                        }
+                        field(TotalOpenValue; TotalOpenValue)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Offen',
+                                        ENU = 'Open';
+                        }
+                    }
+                    group(TTLsCostValue)
+                    {
+
+                        CaptionML = DEU = 'Kosten',
+                                    ENU = 'Cost Value';
+                        field(TotalCostValue; TotalCostValue)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Summe',
+                                        ENU = 'Total';
+                        }
+                        field(TotalOpenCostValue; TotalOpenCostValue)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Offen',
+                                        ENU = 'Open';
+                        }
+                    }
+                    group(TTLsQuantity)
+                    {
+                        CaptionML = DEU = 'Menge',
+                                    ENU = 'Quantity';
+                        //The GridLayout property is only supported on controls of type Grid
+                        //GridLayout = Columns;
+                        field(TotalQuantityBase; TotalQuantityBase)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Menge (Basis)',
+                                        ENU = 'Quantity (Base)';
+                            RowSpan = 2;
+                        }
+                        field(TotalQuantityTempo; TotalQuantityTempo)
+                        {
+                            ApplicationArea = All;
+                            CaptionML = DEU = 'Menge (aus Tempo)',
+                                        ENU = 'Quantity (from Tempo)';
+                        }
+                    }
+                }
+            }
         }
         area(factboxes)
         {
-            part(Control1000000100; "SCSJIFTempo - Planning Line FB")
+            part(Control1000000100; "Tempo - Planning Line FB")
             {
                 ApplicationArea = All;
                 SubPageLink = "Job No." = field("Job No."),
@@ -151,6 +207,11 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
     actions
     {
     }
+
+    trigger OnAfterGetCurrRecord()
+    begin
+        CalculateTotals(TotalQuantityBase, TotalQuantityTempo, TotalValue, TotalOpenValue, TotalCostValue, TotalOpenCostValue);
+    end;
 
     trigger OnAfterGetRecord()
     var
@@ -176,27 +237,17 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
 
         if "Jira Issue Summary" = '' then
             "Jira Issue Summary" := Description;
-
-        InvoiceList := '';
-
-        JobPlanningLineInvoice.SetRange("Job No.", "Job No.");
-        JobPlanningLineInvoice.SetRange("Job Task No.", "Job Task No.");
-        JobPlanningLineInvoice.SetRange("Job Planning Line No.", "Line No.");
-        JobPlanningLineInvoice.SetRange("Document Type", JobPlanningLineInvoice."Document Type"::"Posted Invoice");
-        if JobPlanningLineInvoice.FindSet then begin
-            repeat
-                InvoiceList += ', ' + JobPlanningLineInvoice."Document No.";
-            until JobPlanningLineInvoice.Next = 0;
-
-            InvoiceList := CopyStr(InvoiceList, 3);
-        end;
     end;
 
     var
         TempoWorkDescription: Text[1024];
         InStr: InStream;
-        InvoiceList: Text;
-        JobPlanningLineInvoice: Record "Job Planning Line Invoice";
+        TotalQuantityBase: Decimal;
+        TotalQuantityTempo: Decimal;
+        TotalValue: Decimal;
+        TotalOpenValue: Decimal;
+        TotalCostValue: Decimal;
+        TotalOpenCostValue: Decimal;
         gStyleTaskNo: Text;
         [InDataSet]
         gStyleQuantity: Text;
