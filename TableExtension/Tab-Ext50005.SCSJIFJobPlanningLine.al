@@ -7,18 +7,18 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'Tempo Worklog Id';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
             Editable = false;
         }
         field(50010; "Jira Issue Key"; Text[30])
         {
             Caption = 'Jira Issue Key';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnLookup()
             var
-                JIRASetup: Record "JIRA/Tempo-Setup";
+                JIRASetup: Record "SCSJIFJIRA/Tempo-Setup";
             begin
                 if "Jira Issue Key" <> '' then begin
                     JIRASetup.Get;
@@ -30,25 +30,25 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'Jira Issue Summary';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50025; "Parent Issue Key"; Text[30])
         {
             Caption = 'Parent Issue Key';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50026; "Parent Issue Summary"; Text[250])
         {
             Caption = 'Parent Issue Summary';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50030; "JIRA/Tempo Sync Status"; Option)
         {
             Caption = 'JIRA/Tempo Sync Status';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
             OptionCaption = '  ,Synchronized,Deleted in Tempo,Error,Update After Invoice,Moved to Other Account';
             OptionMembers = " ","In Sync","Deleted in Tempo",Error,"Update After Invoice","Moved to Other Account";
         }
@@ -56,13 +56,13 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'JIRA/Tempo Sync DateTime';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50040; "JIRA/Tempo Billed Hours"; Decimal)
         {
             Caption = 'JIRA/Tempo Billed Hours';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnValidate()
             begin
@@ -81,13 +81,13 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'JIRA/Tempo Billed Hours Prev.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50050; "JIRA/Tempo Workdate"; Date)
         {
             Caption = 'JIRA/Tempo Workdate';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnValidate()
             begin
@@ -106,20 +106,20 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'JIRA/Tempo Workdate Prev.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50060; "JIRA/Tempo Work Description"; BLOB)
         {
             Caption = 'JIRA/Tempo Work Description';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
             SubType = UserDefined;
         }
         field(50070; "JIRA/Tempo Staff Id"; Text[20])
         {
             Caption = 'JIRA/Tempo Staff Id';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnValidate()
             begin
@@ -138,13 +138,13 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'JIRA/Tempo Staff Id Prev.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50080; "JIRA Task No."; Text[30])
         {
             Caption = 'JIRA Task No.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnValidate()
             begin
@@ -163,20 +163,20 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
         {
             Caption = 'JIRA Task No. Prev.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50090; "Job Description"; Text[50])
         {
             CalcFormula = lookup (Job.Description where("No." = field("Job No.")));
             Caption = 'Job Description';
-            Description = 'SCS1.00';
+
             FieldClass = FlowField;
         }
         field(50095; "Job Posting Group"; Code[10])
         {
             CalcFormula = lookup (Job."Job Posting Group" where("No." = field("Job No.")));
             Caption = 'Job Posting Group';
-            Description = 'SCS1.00';
+
             FieldClass = FlowField;
         }
         field(50100; "Job Task Description"; Text[100])
@@ -184,56 +184,56 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
             CalcFormula = lookup ("Job Task".Description where("Job No." = field("Job No."),
                                                                "Job Task No." = field("Job Task No.")));
             Caption = 'Job Task Description';
-            Description = 'SCS1.00';
+
             FieldClass = FlowField;
         }
         field(50110; "Bill-to Customer No."; Code[20])
         {
             CalcFormula = lookup (Job."Bill-to Customer No." where("No." = field("Job No.")));
             Caption = 'Bill-to Customer No.';
-            Description = 'SCS1.00';
+
             FieldClass = FlowField;
         }
         field(50120; "JIRA/Tempo Worked Hours"; Decimal)
         {
             Caption = 'JIRA/Tempo Worked Hours';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50130; "JIRA/Tempo Worked Hours Prev."; Decimal)
         {
             Caption = 'JIRA/Tempo Worked Hours Prev.';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50140; "Tempo Hash Value"; Text[50])
         {
             Caption = 'Tempo Hash Value';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50150; "Requested By"; Text[30])
         {
             Caption = 'Requested By';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50160; "Applies To"; Text[30])
         {
             Caption = 'Applies To';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50170; "Task Type"; Text[30])
         {
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
         }
         field(50200; "Hold From Invoicing"; Boolean)
         {
             Caption = 'Hold From Invoicing';
             DataClassification = CustomerContent;
-            Description = 'SCS1.00';
+
 
             trigger OnValidate()
             begin

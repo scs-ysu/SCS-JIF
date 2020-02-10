@@ -1,4 +1,4 @@
-table 50103 "JIRA/Tempo-Sync Log file"
+table 50103 "SCSJIFJIRA/Tempo-Snyc Log file"
 {
     DataClassification = CustomerContent;
     Caption = 'JIRA/Tempo Integration - Sync Log file';

@@ -105,6 +105,7 @@ tableextension 50000 "SCSJIFCustomer" extends Customer
             MaxValue = 60;
             MinValue = 0;
         }
+
     }
 
     keys

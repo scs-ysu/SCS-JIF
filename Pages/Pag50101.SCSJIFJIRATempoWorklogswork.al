@@ -1,4 +1,4 @@
-page 50101 "JIRA/Tempo-Worklogs work"
+page 50101 "SCSJIFJIRA/Tempo-Worklogs work"
 {
     DeleteAllowed = false;
     InsertAllowed = false;
@@ -6,7 +6,7 @@ page 50101 "JIRA/Tempo-Worklogs work"
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "JIRA/Tempo-Worklogs workfile";
+    SourceTable = "SCSJIFJIRA/Tempo-Worklogs work";
     //Image = Attachment;
     Caption = 'JIRA/Tempo-Worklogs work';
 

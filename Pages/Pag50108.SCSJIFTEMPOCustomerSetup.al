@@ -1,4 +1,4 @@
-page 50108 "TEMPO - Customer Setup"
+page 50108 "SCSJIFTEMPO - Customer Setup"
 {
     DeleteAllowed = false;
     InsertAllowed = false;
@@ -65,6 +65,7 @@ page 50108 "TEMPO - Customer Setup"
                     Caption = 'Prohibit invoicing of  Auto-Created task''s lines';
                 }
 
+
             }
         }
     }
@@ -82,7 +83,7 @@ page 50108 "TEMPO - Customer Setup"
                     Promoted = true;
                     PromotedCategory = Process;
                     PromotedIsBig = true;
-                    RunObject = Page "JIRA/Tempo-Custom Field";
+                    RunObject = Page "SCSJIFJIRA/Tempo-Custom Field";
                     RunPageLink = Customer = field("No.");
                 }
             }
@@ -94,20 +95,5 @@ page 50108 "TEMPO - Customer Setup"
         SetFilter("JIRA/Tempo Customer No.", '<>''''');
     end;
 
-    var
-        TextWorkbookNotFound: TextConst DEU = 'Die Vorlagenarbeitsmappe %1 konnte nicht gefunden werden.', ENU = 'The template workbook %1 could not be found.';
-        TextSelectFolder: TextConst DEU = 'Bitte ein Verzeichnis auswählen', ENU = 'Please select a folder.';
-        TextSelectWorkbook: TextConst DEU = 'Bitte eine Vorgabe-Arbeitsmappe auswählen.', ENU = 'Please select a template workbook.';
-
-    local procedure BrowseFolder(var FolderName: Text; CurrentValue: Text; FieldCaption: Text): Boolean
-    var
-        FileMgt: Codeunit "File Management";
-    begin
-        if not CurrPage.Editable then
-            exit;
-
-        FolderName := FileMgt.BrowseForFolderDialog(StrSubstNo(TextSelectFolder, FieldCaption), CurrentValue, true);
-        exit(FolderName <> '');
-    end;
 }
 

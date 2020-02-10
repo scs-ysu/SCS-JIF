@@ -63,7 +63,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
         addlast(FactBoxes)
         {
-            part(AttachmentsFB; "Attachments")
+            part(AttachmentsFB; "SCSJIFAttachments")
             {
                 ApplicationArea = All;
             }
@@ -77,9 +77,9 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
         // Add changes to page actions here        
         addlast(Processing)
         {
-            group(SCSDetails)
+            group(Details)
             {
-                action(SCSAction1000000012)
+                action(Action1000000012)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Projektaufgabenzei&len',
@@ -108,7 +108,6 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
                 trigger OnAction()
                 var
-                    "*** SCS1.00": Integer;
                     JobTask: Record "Job Task";
                 begin
                     TestField("Bill-to Customer No.");
@@ -123,12 +122,12 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
         }
         addlast(Processing)
         {
-            group("SCSJIRA/Tempo")
+            group("JIRA/Tempo")
             {
                 CaptionML = DEU = 'JIRA/Tempo',
                             ENU = 'JIRA/Tempo';
                 Image = "Report";
-                action(SCSSynchronizeJob)
+                action(SynchronizeJob)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Projekt synchronisieren',
@@ -174,7 +173,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
                     end;
                 }
-                action(SCSAccountsIinError)
+                action(AccountsIinError)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Accounts in Error',
@@ -183,7 +182,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = true;
-                    RunObject = Page "JIRA/Tempo-Accounts work";
+                    RunObject = Page "SCSJIFJIRA/Tempo-Accounts work";
                     RunPageMode = View;
 
                     trigger OnAction()
@@ -192,16 +191,16 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     begin
                     end;
                 }
-                action(SCSProcessingLog)
+                action(ProcessingLog)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Sync. Protokoll',
                                 ENU = 'Synchronization Log';
                     Promoted = true;
                     PromotedCategory = Category5;
-                    RunObject = Page "Tempo - Processing Log";
+                    RunObject = Page "SCSJIF Tempo - Processing Log";
                 }
-                action(SCSOpenJira)
+                action(OpenJira)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'JIRA starten',
@@ -213,13 +212,13 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
 
                     trigger OnAction()
                     var
-                        JiraSetup: Record "JIRA/Tempo-Setup";
+                        JiraSetup: Record "SCSJIFJIRA/Tempo-Setup";
                     begin
                         JiraSetup.Get;
                         HyperLink(JiraSetup."Tempo Servlet Base URL");
                     end;
                 }
-                action(SCSTempoCustomerSetup)
+                action(TempoCustomerSetup)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Tempo Kunden -  Konfiguration',
@@ -228,9 +227,9 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = false;
-                    RunObject = Page "TEMPO - Customer Setup";
+                    RunObject = Page "SCSJIFTEMPO - Customer Setup";
                 }
-                action(SCSTempoIntegrationSetup)
+                action(TempoIntegrationSetup)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Tempo Integration - Konfiguration',
@@ -239,12 +238,12 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category5;
                     PromotedIsBig = false;
-                    RunObject = Page "TEMPO- Integration Setup";
+                    RunObject = Page "SCSJIFTEMPO- Integration Setup";
                 }
             }
-            group("SCSJIRA/Tempo Lines")
+            group("JIRA/Tempo Lines")
             {
-                action(SCSPlanningLines2InvoiceExt)
+                action(PlanningLines2InvoiceExt)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Planungszeilen zu berechnen (externe Sicht)',
@@ -252,9 +251,9 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Image = List;
                     Promoted = true;
                     PromotedCategory = Category6;
-                    RunObject = Page "Tempo-Plan Lines 2Inv(ext)";
+                    RunObject = Page "SCSJIFTempo-Pln Lns 2Inv(ext)";
                 }
-                action(SCSAllPlanningLinesExt)
+                action(AllPlanningLinesExt)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Planungszeilen (externe Sicht)',
@@ -263,9 +262,9 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category6;
                     PromotedIsBig = true;
-                    RunObject = Page "Tempo-All Plan Lines Ext";
+                    RunObject = Page "SCSJIFTempo-All Plan Lines Ext";
                 }
-                action(SCSAllPlanningLinesInt)
+                action(AllPlanningLinesInt)
                 {
                     ApplicationArea = All;
                     CaptionML = DEU = 'Planungszeilen (interne Sicht)',
@@ -274,7 +273,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                     Promoted = true;
                     PromotedCategory = Category6;
                     PromotedIsBig = true;
-                    RunObject = Page "Tempo All Plan Lines Int";
+                    RunObject = Page "SCSJIFTempo All Plan Lines Int";
                 }
             }
         }

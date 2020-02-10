@@ -1,4 +1,4 @@
-table 50100 "JIRA/Tempo-Accounts workfile"
+table 50100 "SCSJIFJIRA/Tempo-Accounts work"
 {
 
     DataClassification = CustomerContent;

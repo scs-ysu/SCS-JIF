@@ -1,9 +1,9 @@
-page 50104 "JIRA/Tempo-Custom Field"
+page 50104 "SCSJIFJIRA/Tempo-Custom Field"
 {
     DelayedInsert = true;
     PageType = List;
     UsageCategory = Lists;
-    SourceTable = "JIRA/Tempo-Custom Field Map.";
+    SourceTable = "SCSJIFJIRA/Tempo-Cst Fld Map";
     ApplicationArea = All;
     Caption = 'JIRA/Tempo-Custom Field';
     layout

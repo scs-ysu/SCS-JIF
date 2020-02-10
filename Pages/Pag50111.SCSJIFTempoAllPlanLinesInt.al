@@ -1,4 +1,4 @@
-page 50111 "Tempo All Plan Lines Int"
+page 50111 "SCSJIFTempo All Plan Lines Int"
 {
 
     Caption = 'Tempo - All Planning Lines (including internal information)';
@@ -231,7 +231,7 @@ page 50111 "Tempo All Plan Lines Int"
         }
         area(factboxes)
         {
-            part(Control1000000100; "Tempo - Planning Line FB")
+            part(Control1000000100; "SCSJIFTempo - Planning Line FB")
             {
                 ApplicationArea = All;
                 SubPageLink = "Job No." = field("Job No."),

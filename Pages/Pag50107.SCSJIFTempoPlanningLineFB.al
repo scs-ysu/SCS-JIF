@@ -1,4 +1,4 @@
-page 50107 "Tempo - Planning Line FB"
+page 50107 "SCSJIFTempo - Planning Line FB"
 {
 
     PageType = CardPart;

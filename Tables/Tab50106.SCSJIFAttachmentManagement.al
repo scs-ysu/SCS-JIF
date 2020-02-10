@@ -1,4 +1,4 @@
-table 50106 "Attachment Management"
+table 50106 "SCSJIFAttachment Management"
 {
 
     DataClassification = CustomerContent;
@@ -61,8 +61,8 @@ table 50106 "Attachment Management"
         FileMgmt: Codeunit "File Management";
         //TempBlob: Record TempBlob;
         TempBlob: Codeunit "Temp Blob"; // to do
-        Rec1: Record "Attachment Management";
-        Rec2: Record "Attachment Management";
+        Rec1: Record "SCSJIFAttachment Management";
+        Rec2: Record "SCSJIFAttachment Management";
         BlobInStream: InStream;
         BlobOutStream: OutStream;
         BytesRead: Integer;

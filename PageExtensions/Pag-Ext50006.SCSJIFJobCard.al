@@ -19,11 +19,12 @@ pageextension 50006 "SCSJIF Job Card" extends "Job Card"
         addafter("&Online Map")
 
         {
-            action("SCSTempo Custom Field Mapping")
+            action("Tempo Custom Field Mapping")
             {
                 ApplicationArea = All;
                 Caption = 'Tempo Custom Field Mapping';
-                RunObject = Page "JIRA/Tempo-Custom Field";
+                Description = 'SCS1.00';
+                RunObject = Page "SCSJIFJIRA/Tempo-Custom Field";
                 RunPageLink = Customer = field("Bill-to Customer No."),
                                   "Job No." = field("No.");
             }

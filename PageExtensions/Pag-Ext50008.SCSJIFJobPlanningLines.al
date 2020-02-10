@@ -95,7 +95,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
         }
         addfirst(FactBoxes)
         {
-            part(Control1000000017; "Tempo - Planning Line FB")
+            part(Control1000000017; "SCSJIFTempo - Planning Line FB")
             {
                 ApplicationArea = All;
                 SubPageLink = "Job No." = field("Job No."),
@@ -110,7 +110,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
         // Add changes to page actions here
         addafter(CreateJobJournalLines)
         {
-            action("SCSMove Planning Lines")
+            action("Move Planning Lines")
             {
                 ApplicationArea = All;
                 CaptionML = DEU = 'Planzeilen verschieben',
@@ -122,7 +122,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
 
                 trigger OnAction()
                 var
-                    MovePlanningLines: Page "Tempo - Move Plan Lines";
+                    MovePlanningLines: Page "SCSJIFTempo - Move Plan Lines";
                     Rec2: Record "Job Planning Line";
                 begin
 
@@ -132,7 +132,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
                     MovePlanningLines.RunModal;
                 end;
             }
-            action("SCSRe-Price Planning Lines")
+            action("Re-Price Planning Lines")
             {
                 ApplicationArea = All;
                 CaptionML = DEU = 'Preise berechnen',
@@ -172,7 +172,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
         }
         addafter(DemandOverview)
         {
-            action("SCSSelected Lines Only")
+            action("Selected Lines Only")
             {
                 ApplicationArea = All;
                 CaptionML = DEU = 'Nach Auswahl filtern',
