@@ -50,7 +50,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
         gJobFilter: Text;
         gFromDate: Date;
         gToDate: Date;
-        gTempLog: Record "SCSJIFJIRA/Tempo-Snyc Log file" temporary;
+        gTempLog: Record "SCSJIFJIRA/Tempo-Sync Log file" temporary;
         gTempoIntegration: Codeunit "SCSJIF TEMPO Integration";
         TxtSyncStarted: TextConst DEU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.', ENU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.';
         TxtSyncEnded: TextConst DEU = 'Tempo Sync ended.', ENU = 'Tempo Sync ended.';
@@ -199,7 +199,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure Log(Severity: Option; Message: Text)
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "SCSJIFJIRA/Tempo-Sync Log file";
         i: Integer;
         NextId: Integer;
     begin
@@ -226,7 +226,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure FlushLog()
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "SCSJIFJIRA/Tempo-Sync Log file";
         NextId: Integer;
     begin
         if not gTempLog.FindSet then exit;
@@ -244,7 +244,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
         gTempLog.DeleteAll; // single instance CU
     end;
 
-    procedure GetNextLogId(var Log: Record "SCSJIFJIRA/Tempo-Snyc Log file"): Integer
+    procedure GetNextLogId(var Log: Record "SCSJIFJIRA/Tempo-Sync Log file"): Integer
     begin
         if Log.FindLast then
             exit(Log.Id + 1)
@@ -254,7 +254,7 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
 
     procedure ClearLog()
     var
-        Log: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        Log: Record "SCSJIFJIRA/Tempo-Sync Log file";
     begin
         Log.DeleteAll;
     end;

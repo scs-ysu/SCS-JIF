@@ -4,7 +4,7 @@ page 50103 "SCSJIF Tempo - Processing Log"
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "SCSJIFJIRA/Tempo-Snyc Log file";
+    SourceTable = "SCSJIFJIRA/Tempo-Sync Log file";
     Caption = 'Tempo - Processing Log';
     layout
     {

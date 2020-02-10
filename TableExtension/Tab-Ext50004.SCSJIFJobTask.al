@@ -35,11 +35,6 @@ tableextension 50004 "SCSJIFJob Task" extends "Job Task"
             FieldClass = FlowField;
 
         }
-        field(50131; "Dummy"; Text[10])
-        {
-            ObsoleteState = Removed;
-
-        }
     }
 
     keys

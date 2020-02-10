@@ -20,7 +20,7 @@ codeunit 50100 "SCSJIF TEMPO Integration"
         TxtParseError: TextConst DEU = 'Illegal XML response received from TEMPO-Servlet. Try URL in browser: %1', ENU = 'Illegal XML response received from TEMPO-Servlet. Try URL in browser: %1';
         TxtSendRequestError: TextConst DEU = 'Send request ended with error code %1, description %2.', ENU = 'Send request ended with error code %1, description %2.';
         TxtAccountSynched: TextConst DEU = 'Tempo account %2 for customer %1 passed the filter, adding to accounts workfile. ', ENU = 'Tempo account %2 for customer %1 passed the filter, adding to accounts workfile. ';
-        gLog: Record "SCSJIFJIRA/Tempo-Snyc Log file";
+        gLog: Record "SCSJIFJIRA/Tempo-Sync Log file";
         TxtGETtingURL: TextConst DEU = 'Getting URL: %1', ENU = 'Getting URL: %1';
         TxtLoadingTempoAccounts: TextConst DEU = 'Loading Tempo accounts to workfile...', ENU = 'Loading Tempo accounts to workfile...';
         TxtLoadingTempoWorklogs: TextConst DEU = 'Loading Tempo worklogs to workfile...', ENU = 'Loading Tempo worklogs to workfile...';
