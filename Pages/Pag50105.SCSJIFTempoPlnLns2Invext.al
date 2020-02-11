@@ -136,57 +136,48 @@ page 50105 "SCSJIFTempo-Pln Lns 2Inv(ext)"
                     GridLayout = Rows;
                     group(TTLsValue)
                     {
-                        CaptionML = DEU = 'Wert',
-                                    ENU = 'Value';
+                        Caption = 'Value';
                         field(TotalValue; TotalValue)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Summe',
-                                        ENU = 'Total';
+                            Caption = 'Total';
                         }
                         field(TotalOpenValue; TotalOpenValue)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Offen',
-                                        ENU = 'Open';
+                            Caption = 'Open';
                         }
                     }
                     group(TTLsCostValue)
                     {
 
-                        CaptionML = DEU = 'Kosten',
-                                    ENU = 'Cost Value';
+                        Caption = 'Cost Value';
                         field(TotalCostValue; TotalCostValue)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Summe',
-                                        ENU = 'Total';
+                            Caption = 'Total';
                         }
                         field(TotalOpenCostValue; TotalOpenCostValue)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Offen',
-                                        ENU = 'Open';
+                            Caption = 'Open';
                         }
                     }
                     group(TTLsQuantity)
                     {
-                        CaptionML = DEU = 'Menge',
-                                    ENU = 'Quantity';
+                        Caption = 'Quantity';
                         //The GridLayout property is only supported on controls of type Grid
                         //GridLayout = Columns;
                         field(TotalQuantityBase; TotalQuantityBase)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Menge (Basis)',
-                                        ENU = 'Quantity (Base)';
+                            Caption = 'Quantity (Base)';
                             RowSpan = 2;
                         }
                         field(TotalQuantityTempo; TotalQuantityTempo)
                         {
                             ApplicationArea = All;
-                            CaptionML = DEU = 'Menge (aus Tempo)',
-                                        ENU = 'Quantity (from Tempo)';
+                            Caption = 'Quantity (from Tempo)';
                         }
                     }
                 }

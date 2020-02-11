@@ -146,8 +146,7 @@ report 50101 "SCSJIFRes Commission Statement"
     requestpage
     {
 
-        CaptionML = DEU = 'Provisionsabrechnung',
-                    ENU = 'Commssion Statement';
+        Caption = 'Commssion Statement';
         SaveValues = true;
 
         layout
@@ -159,13 +158,11 @@ report 50101 "SCSJIFRes Commission Statement"
                     Caption = 'Options';
                     field(PeriodStart; PeriodStart)
                     {
-                        CaptionML = DEU = 'Von Datum',
-                                    ENU = 'Period Start';
+                        Caption = 'Period Start';
                     }
                     field(PeriodEnd; PeriodEnd)
                     {
-                        CaptionML = DEU = 'Bis Datum',
-                                    ENU = 'Period End';
+                        Caption = 'Period End';
                     }
                 }
             }
@@ -205,20 +202,20 @@ report 50101 "SCSJIFRes Commission Statement"
         CommissionAmount: Decimal;
         Turnover: Decimal;
         PrintDate: Date;
-        DocumentHeader: TextConst DEU = 'Provisionsabrechnung', ENU = 'Commission Statement';
-        EmployeeLbl: TextConst DEU = 'Mitarbeiter:', ENU = 'Employee:';
-        PeriodLbl: TextConst DEU = 'Zeitraum:', ENU = 'Period:';
-        BaseSalaryLbl: TextConst DEU = 'Grundgehalt:', ENU = 'Base Salary:';
-        TurnoverLbl: TextConst DEU = 'Umsatz:', ENU = 'Turnover:';
-        MinimumTurnoverLbl: TextConst DEU = 'Mindestumsatz:', ENU = 'Minimum Turnover:';
-        BaseAmountLbl: TextConst DEU = 'Basisbetrag:', ENU = 'Base Amount:';
-        CommissionAmountLbl: TextConst DEU = 'Provision:', ENU = 'Commission Amount:';
-        TurnoverText: TextConst DEU = '(vom Mitarbeiter persönlich erzielter Umsatz)', ENU = '(personally by employee achieved turnover)';
-        MinimumTurnoverText: TextConst DEU = '(Grundgehalt * %1)', ENU = '(base salary * %1)';
-        BaseAmountText: TextConst DEU = '(Umsatz - Mindestumsatz)', ENU = '(turnover - minimum turnover)';
-        CommissionAmountText: TextConst DEU = '(%1 % vom Basisbetrag)', ENU = '(%1 % of base amount)';
+        DocumentHeader: Label 'Commission Statement';
+        EmployeeLbl: Label 'Employee:';
+        PeriodLbl: Label 'Period:';
+        BaseSalaryLbl: Label 'Base Salary:';
+        TurnoverLbl: Label 'Turnover:';
+        MinimumTurnoverLbl: Label 'Minimum Turnover:';
+        BaseAmountLbl: Label 'Base Amount:';
+        CommissionAmountLbl: Label 'Commission Amount:';
+        TurnoverText: Label '(personally by employee achieved turnover)';
+        MinimumTurnoverText: Label '(base salary * %1)';
+        BaseAmountText: Label '(turnover - minimum turnover)';
+        CommissionAmountText: Label '(%1 % of base amount)';
         TextLine3: Label 'Der Provisionsbetrag wird mit der nächstmöglichen Gehaltsabrechnung ausgezahlt.';
-        EmployeeLine: TextConst DEU = 'Mitarbeiter', ENU = 'Employee';
+        EmployeeLine: Label 'Employee';
         MinimumTurnoverTxt: Text;
         CommissionAmountTxt: Text;
         TextLine2Txt: Text;

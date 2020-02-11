@@ -52,9 +52,9 @@ codeunit 50101 "SCSJIFTEMPO Int. - Controller"
         gToDate: Date;
         gTempLog: Record "SCSJIFJIRA/Tempo-Sync Log file" temporary;
         gTempoIntegration: Codeunit "SCSJIF TEMPO Integration";
-        TxtSyncStarted: TextConst DEU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.', ENU = 'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.';
-        TxtSyncEnded: TextConst DEU = 'Tempo Sync ended.', ENU = 'Tempo Sync ended.';
-        TxtTempoAccountsFilter: TextConst DEU = 'Tempo Accounts are filtered to: %1.', ENU = 'Tempo Accounts are filtered to: %1.';
+        TxtSyncStarted: Label  'Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.';
+        TxtSyncEnded: Label 'Tempo Sync ended.';
+        TxtTempoAccountsFilter: Label 'Tempo Accounts are filtered to: %1.';
         gProgressWindow: Dialog;
         TxtProgressWindow: Label 'Synchronizing...\\Phase: #1######################################################################################################\\Customer #2####################\\Account: #3####################''';
 

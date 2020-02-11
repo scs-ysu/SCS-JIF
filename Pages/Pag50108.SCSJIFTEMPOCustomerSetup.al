@@ -6,8 +6,8 @@ page 50108 "SCSJIFTEMPO - Customer Setup"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Customer;
-    CaptionML = ENU = 'Temp Customer Setup',
-                DEU = 'Tempo Kunden -  Konfiguration';
+    Caption = 'Temp Customer Setup';
+
     layout
     {
         area(content)

@@ -113,8 +113,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
             action("Move Planning Lines")
             {
                 ApplicationArea = All;
-                CaptionML = DEU = 'Planzeilen verschieben',
-                                ENU = 'Move Lines';
+                Caption = 'Move Lines';
                 Image = MovementWorksheet;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -135,8 +134,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
             action("Re-Price Planning Lines")
             {
                 ApplicationArea = All;
-                CaptionML = DEU = 'Preise berechnen',
-                                ENU = 'Reprice Lines';
+                Caption = 'Reprice Lines';
                 Image = PriceAdjustment;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -175,8 +173,7 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
             action("Selected Lines Only")
             {
                 ApplicationArea = All;
-                CaptionML = DEU = 'Nach Auswahl filtern',
-                                ENU = 'Filter to selected';
+                Caption = 'Filter to selected';
                 Image = SelectEntries;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -236,10 +233,10 @@ pageextension 50008 "SCSJIF Job Planning Lines" extends "Job Planning Lines"
         TotalOpenValue: Decimal;
         TotalCostValue: Decimal;
         TotalOpenCostValue: Decimal;
-        TxtNoLinesSelected: TextConst DEU = 'Bitte mindestens eine Zeile auswählen.', ENU = 'Please select at least one line for repricing.';
-        TxtConfirmReprice: TextConst DEU = 'Preis für ausgewählte Zeilen neu berechnen?', ENU = 'Reprice selected lines?';
-        TxtConfirmReplace: TextConst DEU = 'Wert %1 mit Wert aus Tempo (%2) ersetzen?', ENU = 'Replace current value %1 with Tempo value %2?';
-        TxtRequiredFiltersMissing: TextConst DEU = 'Die Spalten %1 und %2 müssen gefiltert sein, damit diese Funktion benutzt werden kann.', ENU = 'Columns %1 and %2 must be filtered in order to use this function.';
+        TxtNoLinesSelected: Label 'Please select at least one line for repricing.';
+        TxtConfirmReprice: Label 'Reprice selected lines?';
+        TxtConfirmReplace: Label 'Replace current value %1 with Tempo value %2?';
+        TxtRequiredFiltersMissing: Label 'Columns %1 and %2 must be filtered in order to use this function.';
 
     local procedure SetSyncStatusStyle()
     begin

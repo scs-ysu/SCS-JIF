@@ -44,8 +44,7 @@ page 50106 "SCSJIFAttachments"
                 PromotedCategory = Process;
                 PromotedIsBig = true;
 
-                CaptionML = DEU = 'Anhang anfügen',
-                            ENU = 'Add Attachment';
+                Caption = 'Add Attachment';
 
                 trigger OnAction()
                 begin

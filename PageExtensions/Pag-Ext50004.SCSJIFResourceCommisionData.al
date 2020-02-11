@@ -22,22 +22,19 @@ pageextension 50004 "SCSJIF Resource Commision Data" extends "Resource Card"
                 field("Base Salary"; "Base Salary")
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Grundgehalt',
-                                ENU = 'Base Salary';
+                    Caption = 'Base Salary';
 
                 }
                 field("Turnover Factor"; "Turnover Factor")
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Faktor für Mindestumsatz',
-                                ENU = 'Turnover Factor';
+                    Caption = 'Turnover Factor';
 
                 }
                 field("Commission Percentage"; "Commission Percentage")
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Prozentsatz Provision',
-                                ENU = 'Commission Percentage';
+                    Caption = 'Commission Percentage';
 
                 }
             }
@@ -58,8 +55,7 @@ pageextension 50004 "SCSJIF Resource Commision Data" extends "Resource Card"
                 PromotedCategory = "Report";
                 PromotedIsBig = true;
                 RunObject = Report "SCSJIFRes Commission Statement";
-                CaptionML = DEU = 'Provisionsabrechnung',
-                            ENU = 'Resource Commission Statement';
+                Caption = 'Resource Commission Statement';
             }
         }
     }

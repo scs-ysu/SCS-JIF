@@ -1,0 +1,1652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="SCS-JIF" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1915.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="body" datatype="resx">
+        <trans-unit id="Table 2193124096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCSJIFJIRA/Tempo-Accounts work</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 47705996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Account ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 2425474584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Project Key List</source>
+          <target state="translated">JIRA/Tempo Projekt Kürzel-Liste</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Project Key List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 1391761481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Customer No.</source>
+          <target state="translated">JIRA/Tempo Kundennummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3913416681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/TEMPO Customer Name</source>
+          <target state="translated">JIRA/Tempo Kundenname</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 1833370547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Responsible</source>
+          <target state="translated">Verantwortlich</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Person Responsible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3346966482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Responsible Name</source>
+          <target state="translated">Name verantwortlich</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Person Responsible Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 1714747696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Owner</source>
+          <target state="translated">Projektträger</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Project Owner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3877927551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Code</source>
+          <target state="translated">Kategorie</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 59712786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Description</source>
+          <target state="translated">Kategorie-Beschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Category Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3832916412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Status</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3832916412 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,External Close,JIRA Close,Open,External Project Not Found,Archived</source>
+          <target state="translated"> ,Extern geschlossen,In JIRA geschlossen ,Offen,Externes Projekt nicht gefunden,Archiviert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 3038798374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Error</source>
+          <target state="translated">Synchronsationsfehler</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Synchronization Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 4143048370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Status</source>
+          <target state="translated">Synchronisationsstatus</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Synchronization Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 4143048370 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending,Error,Processed</source>
+          <target state="translated">Anstehend,Fehler,Verarbeitet</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Synchronization Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Debitor</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 1195919157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Customer Number</source>
+          <target state="translated">JIRA/Tempo Kundennummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field JIRA/Tempo Customer Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2193124096 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <target state="translated">Projektnummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Accounts work - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2193124096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo-Accounts work</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFJIRA/Tempo-Accounts work - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2193124096 - Action 3809398787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WorkLogs In Error</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFJIRA/Tempo-Accounts work - Action WorkLogsInError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCSJIFJIRA/Tempo-Worklogs work</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 937849473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TEMPO Account ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field TEMPO Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2943307809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Job Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2017397268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Log ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Log ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2055712736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Issue ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3042459130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Key</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Issue Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3966670191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Summary</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Issue Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 1270824478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Issue Key</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Parent Issue Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 140662355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Issue Summary</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Parent Issue Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2173636577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Parent Issue</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Is Parent Issue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 1543503477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worked Hours</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Worked Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3181844451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billed Hours</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Billed Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2070372032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing Attributes</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Billing Attributes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2790477231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Date</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 642926148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work DateTime</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 1814464443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3368806013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staff ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Staff ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2768131332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Activity ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3186634526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Name</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Activity Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2721791418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 808701567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 2</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 1446398184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 3</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 339913973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 4</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 977610590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 5</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3359488035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 6</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3997184652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 7</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2890700441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Description 8</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Work Description 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2888380701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Key</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Parent Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2955912939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reporter</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Reporter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 624539404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field External ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 372400645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Timestamp</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field External Timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3052385474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Hours</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field External Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 4145592408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Result</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field External Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 2715207659 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hash Value</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Hash Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 3038798374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Error</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Synchronization Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 4143048370 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending,Error,Processed</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Synchronization Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 643912604 - Field 4143048370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Status</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Worklogs work - Field Synchronization Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 643912604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo-Worklogs work</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFJIRA/Tempo-Worklogs work - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo - Setup</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 2668524214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Servlet Base URL</source>
+          <target state="translated">Tempo Servlet Basis URL</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Tempo Servlet Base URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 1840708378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Security Token</source>
+          <target state="translated">Tempo Security Token</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Tempo Security Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 527762138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Log Before Sync-Start</source>
+          <target state="translated">Protokoll vor Sync-Beginn leeren</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Clear Log Before Sync-Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 3820750781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consolidate Ressources on Inv.</source>
+          <target state="translated">Ressourcen auf Rechnung saldieren</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Consolidate Ressources on Inv. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 3554725434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account No. for Cons.</source>
+          <target state="translated">Sachkonto für Ressourcen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field G/L Account No. for Cons. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 1971467319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sync From Date</source>
+          <target state="translated">Synchronisieren ab Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Sync From Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 1130106943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira User for Sync</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Jira User for Sync - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 944664548 - Field 607125565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira Password for Sync</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Setup - Field Jira Password for Sync - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Integration - Sync Log file</source>
+          <target state="translated">JIRA/Tempo Integration - Sync-Protokoll</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target state="translated">Kennung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Field 732767958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Timestamp</source>
+          <target state="translated">Protokoll-Zeitpunkt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Field Log Timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <target state="translated">Nachricht</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Field 3618771765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Severity</source>
+          <target state="translated">Schwere</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Field Severity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1316477566 - Field 3618771765 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug,Info,Warning,Error,Fatal</source>
+          <target state="translated">Debug,Info,Warning,Error,Fatal</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Sync Log file - Field Severity - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo - Zuordnung von Kundenspezifischen Feldern</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <target state="translated">Debitor</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <target state="translated">Projekt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 377186541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Field Name</source>
+          <target state="translated">Von Feld Name</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field From Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 1394790946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Field No.</source>
+          <target state="translated">Nach Feld Nummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field To Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 3070320983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <target state="translated">Feld Name</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 3984022072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <target state="translated">Art der Zuordnung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field Mapping Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 3984022072 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pass-Thru,Map from/to,From/to Default</source>
+          <target state="translated">Durchreichen,Übersetzen von-&gt;nach,Vorgabewert für Übersetzung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field Mapping Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 2090461591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Value</source>
+          <target state="translated">Von Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field From Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - Field 1227835268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Value</source>
+          <target state="translated">Nach Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - Field To Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2645057051 - NamedType 1511739180" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one entry of mapping type "Passthrough"  exists. This entry overrides all other types.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Cst Fld Map - NamedType TextPassThruOverrides</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo - Worklogs, Custom fields</source>
+          <target state="translated">JIRA/Tempo - Zeiteintragungen, Kundenspezifische Felder</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Field 2017397268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Log ID</source>
+          <target state="translated">Kennung des Zeiteintrags</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Field Work Log ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Field 1394790946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Field No.</source>
+          <target state="translated">Nach Feld Nummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Field To Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Field 1227835268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Value;DEU=Nach Wert</source>
+          <target state="translated">Nach Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Field To Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Field 874363013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From  Field Name</source>
+          <target state="translated">Von Feld Name</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Field From  Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1797123497 - Field 2090461591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Value</source>
+          <target state="translated">Von Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFJIRA/Tempo-Wrklgs,Cstfld - Field From Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCSJIFAttachment Management</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Field 1782915443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attached to Record Id</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Field Attached to Record Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Field 1159403147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachment</source>
+          <target state="translated">Anhang</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Field Attachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Field 989751795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="translated">Datei</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Field FileName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - Field 3321806260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Added</source>
+          <target state="translated">Hinzugefügt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - Field Added - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - NamedType 3396321326" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No attachment data found.</source>
+          <target state="translated">Keine Daten für den Anhang gefunden.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - NamedType Txt_AttachmentDataMissing</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - NamedType 1513997335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file you are trying to import is larger than %1. Are you sure?</source>
+          <target state="translated">Die Datei ist größer als %1. Sind Sie sicher?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - NamedType Txt_BigFile</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - NamedType 1865424942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An attachment named %1 already exists. Do you want to add a second instance?</source>
+          <target state="translated">Ein Anhang mit Namen %1 existiert bereits. Wollen Sie eine zusätzliche Version anhängen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - NamedType Txt_ConfirmDuplicate</note>
+        </trans-unit>
+        <trans-unit id="Table 3901823728 - NamedType 3877445094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Attachment.</source>
+          <target state="translated">Anhang importieren.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SCSJIFAttachment Management - NamedType Txt_Import</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1337339471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Account key is empty.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtAccountMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 457300570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira Customer is missing.</source>
+          <target state="translated">Tempo Customer is empty.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtTempoCustMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2359953162" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira Responsible Person is missing.</source>
+          <target state="translated">Tempo Responsible Person is empty.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtTempoRespPersonMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4108067042" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task is missing.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNAVJobTskMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2400935532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job "%1" does not exist.</source>
+          <target state="translated">NAV Job "%1" does not exist.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNAVJobNotExist</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 70622160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task "%2" does not exist for Job "%1".</source>
+          <target state="translated">NAV Job Task "%2" does not exist for Job "%1"</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNAVJobTskNotExist</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2313570341" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Illegal XML response received from TEMPO-Servlet. Parse error details: %1: %2 in line %3, position %4, file position %5. Try URL in browser: %6</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtDOMParseError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2603635951" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Illegal XML response received from TEMPO-Servlet. Try URL in browser: %1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtParseError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1199656135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send request ended with error code %1, description %2.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtSendRequestError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3943038897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo account %2 for customer %1 passed the filter, adding to accounts workfile. </source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtAccountSynched</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2059629051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Getting URL: %1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtGETtingURL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 809564929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Loading Tempo accounts to workfile...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtLoadingTempoAccounts</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2401559261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Loading Tempo worklogs to workfile...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtLoadingTempoWorklogs</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3625008331" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Accounts are filtered to: %1.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtTempoAccountsFilter</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2365874725" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers are filtered to: %1. Current key is: %2.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtCustomersFilterAndKey</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2348808049" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobs are filtered to: %1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtJobFilter</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2238968552" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 detail nodes received.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNodesReceived</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1905993100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating Accounts -&gt; Jobs...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtUpdatingJobs</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1309898548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating Worklog -&gt; Job Task Line...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtUpdatingJobTaskLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3964203909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating Worklogs -&gt; Job Planning Lines (contract)...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtUpdatingJobPlanningLines</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3513598485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 already assigned to planning line %3/%4/%5. Updating.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtWorkLogAlreadyAssigned</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2327025620" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 not yet assigned to any line.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtWorkLogNotYetAssigned</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4027240375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 assigned to multiple planning lines.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtWorkLogAssignedMultiple</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 227714598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task %2 (%3) has been added to job %1.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtJobTaskAdded</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2320620354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task %1/%2 (%3) found for issue %4. Adopting.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtJobTaskFoundByIssue</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1941936048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Job Task ID could be found. Check Setup.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNAVJobTskIDNotFound</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 343164951" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 assigned to planning line %3/%4/%5.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtWorkLogAssigned</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2537202495" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resetting Planning Lines. Filtered to: %1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtPlanningLinesResetFilter</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 1435787859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting orphaned Planning Lines (deleted or reassigned in Tempo). Filtered to: %1</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtPlanningLinesDeleteFilter</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4283231001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 already assigned to planning line %3/%4/%5. Values were changed in Tempo but  line is already invoiced. Update NOT possible.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtJobPlanningLineAlreadyInvoiced</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 2679069422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 already assigned to planning line %3/%4/%5. Values were not changed in Tempo, update skipped.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtWorkLogNotChanged</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 188013669" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Worklog %1 for %2 was previously assigned to planning line %3/%4/%5. Issue has been assigned to a different account in Tempo. Planning Line has been deleted.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtMovedToOtherAccount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4163368759" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account %1 is not inside filters and has been ignored.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtAccountNotSelected</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 250306616" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post-processing Job...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtPostprocessingJob</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3247927425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Customer ID %1 is assigned to multiple customers.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtMultipleCustomers</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4273921318" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Custom fields changed but update of Planning Line is not allowed. Changes were not applied.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtCustomFieldsNOTUpdated</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3577063809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Custom fields were updated in Planning Line.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtCustomFieldsUpdated</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3250511264" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field %1 has been changed from %2 to %3 due to custom field mapping.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtCustomFieldUpdated</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 4046208099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task number according to Tempo interface rules should be %2  instead of %1. Trying to reassign line...</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtJobTaskNoChanged</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3434628309 - NamedType 3004772345" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line is now assiigned to task %1.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIF TEMPO Integration - NamedType TxtNowAssignedToJobTask</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 1923851577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error occured on Work Log level.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtErrOnWorkLogLvl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 751501198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NAV &lt;-&gt; Jira synchronization failed. Action: "%1". Error message: %2</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtSyncErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 432022683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NAV &lt;-&gt; Jira synchronization failed for some projects. Do you want to display projects in error?</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtDsplPrjInErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 792326002" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Sync started. Filter values are: Customer=%1, Account (job)=%2, Date range=%3..%4.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtSyncStarted</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 3206291859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Sync ended.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtSyncEnded</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 3625008331" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Accounts are filtered to: %1.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtTempoAccountsFilter</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1802008739 - NamedType 2648548683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronizing...\\Phase: #1######################################################################################################\\Customer #2####################\\Account: #3####################'</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFTEMPO Int. - Controller - NamedType TxtProgressWindow</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 2543116910" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than Work Date (%3). Are you sure you want to post this?</source>
+          <target state="translated">%1 (%2) liegt vor dem Arbeitsdatum (%3). Wollen Sie dies wirklich buchen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Posting_ConfirmDateBeforeWorkDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 3803079444" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than Work Date (%3). Posting aborted.</source>
+          <target state="translated">%1 (%2) liegt vor dem Arbeitsdatum (%3). Buchung abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Posting_ErrorDateBeforeWorkDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 1987728605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than company default (%3). Are you sure you want to use this date?</source>
+          <target state="translated">Das %1 (%2) liegt vor dem Firmen-Vorgabewert (%3). Dennoch benutzen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Text_Releasing_ConfirmExpiryDateEarly</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 3226084179" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than company default (%3). Release aborted.</source>
+          <target state="translated">Das %1 (%2) liegt vor dem Firmen-Vorgabewert (%3). Freigabe abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Text_Releasing_ErrorExpiryDateEarly</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 229100218" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than Work Date (%3). Are you sure you want to release this?</source>
+          <target state="translated">%1 (%2) liegt vor dem Arbeitsdatum (%3). Wollen Sie dies wirklich freigeben</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Releasing_ConfirmDateBeforeWorkDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 955238048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 (%2) is earlier than Work Date (%3). Release aborted.</source>
+          <target state="translated">%1 (%2) liegt vor dem Arbeitsdatum (%3). Freigabe abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Releasing_ErrorDateBeforeWorkDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 81548618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not all relevant lines have a %1 assigned. Are you sure that you want to continue?</source>
+          <target state="translated">Nicht alle relevanten Zeilen sind einer %1 zugeordnet. Wollen Sie dies wirklich freigeben?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Releasing_Confirm_EstimationPrecisionClassMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 1753788592" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not all relevant lines have a %1 assigned. Release aborted.</source>
+          <target state="translated">Nicht alle relevanten Zeilen sind einer %1 zugeordnet. Freigabe abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Releasing_Error_EstimationPrecisionClassMissing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 935908851" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 does not have a value. Are you sure you want to post this?</source>
+          <target state="translated">%1 ist nicht angegeben, wollen Sie wirklich buchen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Posting_ConfirmNoExtDocNumber</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 3698517997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 does not have a value. Posting aborted.</source>
+          <target state="translated">%1 ist nicht angegeben. Buchung abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Posting_ErrorNoExtDocNumber</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 4060736503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change the %1 or %2 of this %3.</source>
+          <target state="translated">%1 und %2 dieses Elements vom Typ %3 k”nnen nicht ge„ndert werden.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_FiledCaptionChange</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 2306129144" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of sales document (%1) is not supported.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType TxtDocumentTypeNotSupported</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 873521756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Planning Line (%1) is not supported.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType TxtPlanningLineTypeNotSupported</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 73854289" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot change the sales line because it is linked to\</source>
+          <target state="translated">Die Verkaufszeile kann nicht geändert werden, weil sie verknüpft ist mit\</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType TxtLinkedSalesLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 377279920" size-unit="char" translate="yes" xml:space="preserve">
+          <source> %1: %2= %3, %4= %5.</source>
+          <target state="translated"> %1: %2= %3, %4= %5.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType TxtPlannLineEr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 1539278517" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job %1, task %2</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType TxtJobTaskDesc</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 2261001727" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 has not been released. Are you sure that you want to continue?</source>
+          <target state="translated">%1 %2 ist nicht freigegeben. Sind Sie sicher, dass Sie fortsetzen wollen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_SalesDocIsNotReleased</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4193623293 - NamedType 1919337278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 has not been released. Printing aborted.</source>
+          <target state="translated">%1 %2 ist nicht freigegeben. Druck abgebrochen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SCSJIFEvent Subscribers - NamedType Txt_Error_SalesDocIsNotReleased</note>
+        </trans-unit>
+        <trans-unit id="Page 1359752019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TEMPO- Integration Setup</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTEMPO- Integration Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 519724065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - Processing Log</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIF Tempo - Processing Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3735805314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo-Custom Field</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFJIRA/Tempo-Custom Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - Planning Lines to Invoice (External information only)</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 3812125772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control Control1000000035 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totals</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control Totals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 4003896432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TTLsValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 4249294531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Summe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 2289637183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">Offen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalOpenValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 1810545049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Value</source>
+          <target state="translated">Kosten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TTLsCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 803584782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Summe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 3398438090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">Offen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalOpenCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 3519346704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Menge</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TTLsQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 2424005320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target state="translated">Menge (Basis)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalQuantityBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1506401812 - Control 1698121262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (from Tempo)</source>
+          <target state="translated">Menge (aus Tempo)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-Pln Lns 2Inv(ext) - Control TotalQuantityTempo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 325069912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCS Attachment</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFAttachments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 325069912 - Action 2890351084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add Attachment</source>
+          <target state="translated">Anhang anfügen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFAttachments - Action AddAttachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 389143689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - Planning Line FB</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Planning Line FB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3528577189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Temp Customer Setup</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTEMPO - Customer Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3528577189 - Control 2339571702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prohibit invoicing of  Auto-Created task's lines</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTEMPO - Customer Setup - Control ProhibitDummyTaskLinesInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3528577189 - Action 2876165105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ActionGroup1000000025</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTEMPO - Customer Setup - Action ActionGroup1000000025 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3528577189 - Action 1231771072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Custom Mapping</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTEMPO - Customer Setup - Action TempoCustomMapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - Move Planning Lines</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - Control 3520221472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target state="translated">Projekt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - Control JobTaskJobNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - Control 3388952219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task</source>
+          <target state="translated">Aufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - Control JobTaskJobTaskNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - Control 100993308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move to Job Task</source>
+          <target state="translated">Verschieben zu Aufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - Control Move to Job Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - Action 237154199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move Lines</source>
+          <target state="translated">Zeilen verschieben</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - Action MoveLinesToJobTask - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - NamedType 4076783099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move selected lines to Job Task %1?</source>
+          <target state="translated">Ausgewählte Zeilen zu Aufgabe %1 verschieben?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - NamedType TxtConfirmMovement</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - NamedType 3952366079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to select lines for this function.</source>
+          <target state="translated">Sie müssen für diese Funktion Zeilen auswählen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - NamedType TxtNoLinesSelected</note>
+        </trans-unit>
+        <trans-unit id="Page 2055550681 - NamedType 1468582339" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot move from %1 to %2</source>
+          <target state="translated">Zeilen können nicht von %1 nach %2 verschoben werden</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo - Move Plan Lines - NamedType TxtMoveNotPossible</note>
+        </trans-unit>
+        <trans-unit id="Page 2226590082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - All Planning Lines (External information only)</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-All Plan Lines Ext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2226590082 - Control 2513188045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice(s)</source>
+          <target state="translated">Rechnung(en)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo-All Plan Lines Ext - Control InvoiceList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo - All Planning Lines (including internal information)</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totals</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control Totals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 4003896432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Wert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TTLsValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 4249294531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Summe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 2289637183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">Offen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalOpenValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 1810545049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Value</source>
+          <target state="translated">Kosten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TTLsCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 803584782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Summe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 3398438090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target state="translated">Offen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalOpenCostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 3519346704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target state="translated">Menge</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TTLsQuantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 2424005320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target state="translated">Menge (Basis)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalQuantityBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2758181451 - Control 1698121262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity (from Tempo)</source>
+          <target state="translated">Menge (aus Tempo)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SCSJIFTempo All Plan Lines Int - Control TotalQuantityTempo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3751955875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TEMPO - DB Sync</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFTEMPO - DB Sync - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3751955875 - Control 684242166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <target state="translated">Parameter</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFTEMPO - DB Sync - Control Parameters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3751955875 - Control 837247550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Date</source>
+          <target state="translated">Von Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFTEMPO - DB Sync - Control FromDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3751955875 - Control 4137594593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <target state="translated">Bis Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFTEMPO - DB Sync - Control ToDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Commission Statement</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commssion Statement</source>
+          <target state="translated">Provisionsabrechnung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - Control 3126861311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <target state="translated">Von Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - Control PeriodStart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - Control 2396705174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <target state="translated">Bis Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - Control PeriodEnd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 563888500" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Statement</source>
+          <target state="translated">Provisionsabrechnung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType DocumentHeader</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3877179604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee:</source>
+          <target state="translated">Mitarbeiter:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType EmployeeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 894566561" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period:</source>
+          <target state="translated">Zeitraum:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType PeriodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3895899277" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Salary:</source>
+          <target state="translated">Grundgehalt:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType BaseSalaryLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3921375531" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turnover:</source>
+          <target state="translated">Umsatz:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType TurnoverLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3187553721" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Turnover:</source>
+          <target state="translated">Mindestumsatz:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType MinimumTurnoverLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3392844957" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Amount:</source>
+          <target state="translated">Basisbetrag:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType BaseAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 757399669" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Amount:</source>
+          <target state="translated">Provision:</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType CommissionAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3316915146" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(personally by employee achieved turnover)</source>
+          <target state="translated">(vom Mitarbeiter persönlich erzielter Umsatz)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType TurnoverText</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 1452215052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(base salary * %1)</source>
+          <target state="translated">(Grundgehalt * %1)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType MinimumTurnoverText</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 4170052040" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(turnover - minimum turnover)</source>
+          <target state="translated">(Umsatz - Mindestumsatz)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType BaseAmountText</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 1582905008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(%1 % of base amount)</source>
+          <target state="translated">(%1 % vom Basisbetrag)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType CommissionAmountText</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 2208180884" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Der Provisionsbetrag wird mit der nächstmöglichen Gehaltsabrechnung ausgezahlt.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType TextLine3</note>
+        </trans-unit>
+        <trans-unit id="Report 3167053182 - NamedType 3810374608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee</source>
+          <target state="translated">Mitarbeiter</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SCSJIFRes Commission Statement - NamedType EmployeeLine</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3156174082 - Control 1460874378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo  Integration</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Customer Card - Control SCSJIRATempoIntegration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744113094 - Control 57284327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Data</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Resource Commision Data - Control Commission Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744113094 - Control 3955539755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Salary</source>
+          <target state="translated">Grundgehalt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Resource Commision Data - Control Base Salary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744113094 - Control 1824062330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turnover Factor</source>
+          <target state="translated">Faktor für Mindestumsatz</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Resource Commision Data - Control Turnover Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744113094 - Control 2611672591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Percentage</source>
+          <target state="translated">Prozentsatz Provision</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Resource Commision Data - Control Commission Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744113094 - Action 3727532446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Commission Statement</source>
+          <target state="translated">Provisionsabrechnung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Resource Commision Data - Action ResourceCommissionStatement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Control 3508306544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Value (Total Price)</source>
+          <target state="translated">Verfügbar (VK)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Control Available Value (Total Price) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Control 1414582209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Consumed (Total Price)</source>
+          <target state="translated">% Verbraucht (VK)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Control ConsumedPercentageTotalPrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 3843594536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task &amp;Lines</source>
+          <target state="translated">Projektaufgabenzei&amp;len</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action Action1000000012 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 2467261746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SCS Create Job &amp;Sales Invoice</source>
+          <target state="translated">Projektverkauf&amp;srechnung erstellen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action SCS_CreateJobSalesInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 712741272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action JIRA/Tempo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 23744871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronize Job</source>
+          <target state="translated">Projekt synchronisieren</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action SynchronizeJob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 9278488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounts In Error</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action AccountsIinError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 797235889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Log</source>
+          <target state="translated">Sync. Protokoll</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action ProcessingLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 781649296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to JIRA</source>
+          <target state="translated">JIRA starten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action OpenJira - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 785484628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Customer Setup</source>
+          <target state="translated">Tempo Kunden -  Konfiguration</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action TempoCustomerSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 1827379486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Integration Setup</source>
+          <target state="translated">Tempo Integration - Konfiguration</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action TempoIntegrationSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 1565889291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Lines</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action JIRA/Tempo Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 2718462214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Lines to be invoiced (External View)</source>
+          <target state="translated">Planungszeilen zu berechnen (externe Sicht)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action PlanningLines2InvoiceExt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 3947470804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Lines (External View)</source>
+          <target state="translated">Planungszeilen (externe Sicht)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action AllPlanningLinesExt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 754624501 - Action 725989918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Lines (Internal View)</source>
+          <target state="translated">Planungszeilen (interne Sicht)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job List - Action AllPlanningLinesInt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3935441727 - Action 1249203810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Custom Field Mapping</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Card - Action Tempo Custom Field Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 946326387 - Control 3508306544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Value (Total Price)</source>
+          <target state="translated">Verfügbar (VK)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Task Lines - Control Available Value (Total Price) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 946326387 - Control 1414582209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Consumed (Total Price)</source>
+          <target state="translated">% Verbraucht (VK)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Task Lines - Control ConsumedPercentageTotalPrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - Action 2312316075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move Lines</source>
+          <target state="translated">Planzeilen verschieben</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - Action Move Planning Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - Action 3499038897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reprice Lines</source>
+          <target state="translated">Preise berechnen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - Action Re-Price Planning Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - Action 860387996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter to selected</source>
+          <target state="translated">Nach Auswahl filtern</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - Action Selected Lines Only - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - NamedType 3952366079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please select at least one line for repricing.</source>
+          <target state="translated">Bitte mindestens eine Zeile auswählen.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - NamedType TxtNoLinesSelected</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - NamedType 285347492" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reprice selected lines?</source>
+          <target state="translated">Preis für ausgewählte Zeilen neu berechnen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - NamedType TxtConfirmReprice</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - NamedType 3703668178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace current value %1 with Tempo value %2?</source>
+          <target state="translated">Wert %1 mit Wert aus Tempo (%2) ersetzen?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - NamedType TxtConfirmReplace</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512204195 - NamedType 1992077474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Columns %1 and %2 must be filtered in order to use this function.</source>
+          <target state="translated">Die Spalten %1 und %2 müssen gefiltert sein, damit diese Funktion benutzt werden kann.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SCSJIF Job Planning Lines - NamedType TxtRequiredFiltersMissing</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1391761481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Customer No.</source>
+          <target state="translated">JIRA/Tempo Kundennummer</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field JIRA/Tempo Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 2639609854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Template Code</source>
+          <target state="translated">Schablone für Projekt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Job Template Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1791295584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto-Create Job Task</source>
+          <target state="translated">Projektaufgabe automatisch anlegen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Auto-Create Job Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1791295584 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Never,For Dummy Task Only,For JIRA Parent Issue or Dummy Task,For JIRA Issue</source>
+          <target state="translated">Nie,Nur für Dummy Aufgabe,Für JIRA-Parent Issue oder Dummy Aufgabe,Für JIRA-Issue</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Auto-Create Job Task - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 3528233872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID for Dummy Job Task</source>
+          <target state="translated">Nummer für Dummy-Aufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field ID for Dummy Job Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1970912680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prohibit Dummy Task lines inv.</source>
+          <target state="translated">Fakturieren von Dummy Aufgaben verhindern</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Prohibit Dummy Task lines inv. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 380448081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Template Code</source>
+          <target state="translated">Schablone für Projektaufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Job Task Template Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 4054307938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description for Dummy Job Task</source>
+          <target state="translated">Berschreibung für Dummy Projektaufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Desc. for Dummy Job Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1063527820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto-Assign to Issues Job Task</source>
+          <target state="translated">JIRA issues automatisch Projektaufgaben zuordnen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Auto-Assign to Issues Job Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 1971467319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sync From Date</source>
+          <target state="translated">Synchronisieren ab Datum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Sync From Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 710999039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account for Expenses</source>
+          <target state="translated">Sachkonto für Auslagen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field G/L Account for Expenses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 3931909394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit for Expenses</source>
+          <target state="translated">Mengeneinheit für Auslagen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Unit for Expenses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 726818702 - Field 2615316225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. (Base) Fraction (min)</source>
+          <target state="translated">Min. Abrechnungseinheit (min)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFCustomer - Field Qty. (Base) Fraction (min) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1937636332 - Field 3252884149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Based On Multiple Job Planning Lines</source>
+          <target state="translated">Basiert auf mehreren Planungszeilen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFSales Line - Field BasedOnMultipleJobPlanningLns - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1673615080 - Field 1130197721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Work Type Code</source>
+          <target state="translated">Vorgabe Arbeitstyp</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFResource - Field Default Work Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1673615080 - Field 3694144726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Work Type Code - Internal Tasks</source>
+          <target state="translated">Vorgabe Arbeitstyp - Interne Tätigkeiten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFResource - Field Default Work Type Code Int. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1673615080 - Field 3955539755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Salary</source>
+          <target state="translated">Grundgehalt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFResource - Field Base Salary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1673615080 - Field 1824062330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turnover Factor</source>
+          <target state="translated">Multiplikator für Umsatz</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFResource - Field Turnover Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1673615080 - Field 2611672591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Percentage</source>
+          <target state="translated">Provisionssatz</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFResource - Field Commission Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 2038982556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Job</source>
+          <target state="translated">Internes Projekt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Internal Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 4243652953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Sync Status</source>
+          <target state="translated">JIRA/Tempo Sync Status</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field JIRA/Tempo Sync Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 4243652953 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Synchronized,Manually Changed,Error,Closed</source>
+          <target state="translated"> ,Synchronized,Manually Changed,Error,Closed</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field JIRA/Tempo Sync Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 47705996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Account ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field JIRA/Tempo Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 1460235889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount Scheduled</source>
+          <target state="translated">Geplant</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Total Amount Scheduled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 2627802863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount Contracted</source>
+          <target state="translated">Verbraucht</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Total Amount Contracted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 1980120038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Qty. Contr'd (in Tempo)</source>
+          <target state="translated">Anzahl (aus Tempo)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Total Qty. Contr'd (in Tempo) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 2192429635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Earliest Entry Date</source>
+          <target state="translated">Erster Eintrag</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Earliest Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 3977007581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Entry Date</source>
+          <target state="translated">Letzter Eintrag</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Latest Entry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2427659795 - Field 1935325493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount held from Invoicing</source>
+          <target state="translated">Fakturierung angehalten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob - Field Amount held from Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2605218696 - Field 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No.</source>
+          <target state="translated">Rechn. an Deb. Nr.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Task - Field Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2605218696 - Field 1980120038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Qty. Contr'd (in Tempo)</source>
+          <target state="translated">Insg. abgerechnet in Tempo</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Task - Field Total Qty. Contr'd (in Tempo) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2605218696 - Field 1935325493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount held from Invoicing</source>
+          <target state="translated">Fakturierung angehalten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Task - Field Amount held from Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 811496429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Worklog Id</source>
+          <target state="translated">Tempo Worklog Id</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Tempo Worklog Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 2253960866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira Issue Key</source>
+          <target state="translated">Jira Issue</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Jira Issue Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 898267559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jira Issue Summary</source>
+          <target state="translated">JIRA Issue Beschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Jira Issue Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 1270824478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Issue Key</source>
+          <target state="translated">Übergeordneter JIRA Issue</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Parent Issue Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 140662355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Issue Summary</source>
+          <target state="translated">Übergeordnete JIRA Issue Beschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Parent Issue Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4243652953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Sync Status</source>
+          <target state="translated">JIRA/Tempo Sync Status</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Sync Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4243652953 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  ,Synchronized,Deleted in Tempo,Error,Update After Invoice,Moved to Other Account</source>
+          <target state="translated"> ,Synchron,In Tempo gelöscht,Fehler,Änderung Nach Rechnung,Auf anderen Account verschoben</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Sync Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 658783830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Sync DateTime</source>
+          <target state="translated">JIRA/Tempo Sync. Zeitpunkt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Sync DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4266305535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Billed Hours</source>
+          <target state="translated">JIRA/Tempo: abgerechnete Stunden</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Billed Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 453063462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Billed Hours Prev.</source>
+          <target state="translated">In JIRA/Tempo abgerechnete Stunden (vorher)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Billed Hours Prev. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 3773194163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Workdate</source>
+          <target state="translated">JIRA/Tempo Arbeitsdatum</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Workdate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4158969650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Workdate Prev.</source>
+          <target state="translated">JIRA/Tempo Arbeitsdatum (vorher)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Workdate Prev. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 203584613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Work Description</source>
+          <target state="translated">JIRA/Tempo Arbeitsbeschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Work Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4152017145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Staff Id</source>
+          <target state="translated">JIRA/Tempo Personalkennung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Staff Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 2303653228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Staff Id Prev.</source>
+          <target state="translated">JIRA/Tempo Personalkennung (vorher)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Staff Id Prev. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 3373189758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA Task No.</source>
+          <target state="translated">JIRA Aufgabe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA Task No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 1151871199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA Task No. Prev.</source>
+          <target state="translated">JIRA Aufgabe (vorher)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRATask No. Prev. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 2991555307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Description</source>
+          <target state="translated">Projekt Beschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Job Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 4185613972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Posting Group</source>
+          <target state="translated">Projektbuchungsgruppe</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Job Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 1198453408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Description</source>
+          <target state="translated">Projekt-Aufgabenbeschreibung</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Job Task Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No.</source>
+          <target state="translated">Rechn. an Deb. Nr..</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 2117232529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Worked Hours</source>
+          <target state="translated">JIRA/Tempo: gearbeitete Stunden</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Worked Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 336116916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JIRA/Tempo Worked Hours Prev.</source>
+          <target state="translated">JIRA/Tempo: gearbeitete Stunden (vorher)</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field JIRA/Tempo Worked Hours Prev. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 1581589830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tempo Hash Value</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Tempo Hash Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 79791429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested By</source>
+          <target state="translated">Beauftragt durch</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Requested By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 3872672155 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies To</source>
+          <target state="translated">Gehört zu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Applies To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 1482836351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task Type</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Task Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - Field 251570823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hold From Invoicing</source>
+          <target state="translated">Fakturierung angehalten</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - Field Hold From Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - NamedType 2722123302" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing (left) to invoice, line cannot be held.</source>
+          <target state="translated">Es gibt nichts (mehr) zu fakturieren, Fakturierung kann nicht angehalten werden.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - NamedType TxtAllInvoicedCannotHold</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2273022302 - NamedType 4101963003" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resulting base quantity of %1 is not a whole numbered multiple of %2 minutes.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFJob Planning Line - NamedType TxtQtyNotMultiple</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1089636046 - Field 3252884149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Based On Multiple Job Planning Lines</source>
+          <target state="translated">Basiert auf mehreren Planungszeilen</target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SCSJIFSales Line Archive - Field BasedOnMultipleJobPlanningLns - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

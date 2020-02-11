@@ -127,8 +127,7 @@ page 50110 "SCSJIFTempo-All Plan Lines Ext"
                 field(InvoiceList; InvoiceList)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Rechnung(en)',
-                                ENU = 'Invoice(s)';
+                    Caption = 'Invoice(s)';
                 }
                 field(TaskType; "Task Type")
                 {

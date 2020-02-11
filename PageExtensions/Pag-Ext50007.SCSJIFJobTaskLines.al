@@ -10,9 +10,7 @@ pageextension 50007 "SCSJIF Job Task Lines" extends "Job Task Lines"
             {
                 ApplicationArea = All;
                 BlankZero = true;
-                CaptionML = DEU = 'Verfügbar (VK)',
-                                ENU = 'Available Value (Total Price)';
-                Description = 'SCS1.00';
+                Caption = 'Available Value (Total Price)';
                 Editable = false;
                 StyleExpr = ConsumedPercentageTotalPriceStyle;
             }
@@ -25,8 +23,7 @@ pageextension 50007 "SCSJIF Job Task Lines" extends "Job Task Lines"
             {
                 ApplicationArea = All;
                 BlankZero = true;
-                CaptionML = DEU = '% Verbraucht (VK)',
-                                ENU = '% Consumed (Total Price)';
+                Caption = '% Consumed (Total Price)';
 
                 Editable = false;
                 StyleExpr = ConsumedPercentageTotalPriceStyle;

@@ -258,7 +258,6 @@ tableextension 50005 "SCSJIFJob Planning Line" extends "Job Planning Line"
     }
 
     var
-        "*** SCS1.00 Constants": TextConst;
         gRepricingMode: Boolean;
         gCustomer: Record Customer;
         gJobPlaningLine: Record "Job Planning Line";

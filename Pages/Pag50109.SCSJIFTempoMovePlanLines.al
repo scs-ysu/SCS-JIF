@@ -16,15 +16,13 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
                 field(JobTaskJobNo; JobTask."Job No.")
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Projekt',
-                                ENU = 'Job';
+                    Caption = 'Job';
                     Editable = false;
                 }
                 field(JobTaskJobTaskNo; JobTask."Job Task No.")
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Aufgabe',
-                                ENU = 'Job Task';
+                    Caption = 'Job Task';
                     Editable = false;
                 }
                 field(JobTaskDescription; JobTask.Description)
@@ -35,8 +33,7 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
                 field("Move to Job Task"; MoveToJobTask)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Verschieben zu Aufgabe',
-                                ENU = 'Move to Job Task';
+                    Caption = 'Move to Job Task';
                     TableRelation = "Job Task"."Job Task No." WHERE("Job No." = field("Job No."),
                                                                      "Job Task Type" = const(Posting));
 
@@ -85,8 +82,7 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
             action(MoveLinesToJobTask)
             {
                 ApplicationArea = All;
-                CaptionML = DEU = 'Zeilen verschieben',
-                            ENU = 'Move Lines';
+                Caption = 'Move Lines';
                 Image = MovementWorksheet;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -128,9 +124,9 @@ page 50109 "SCSJIFTempo - Move Plan Lines"
     var
         MoveToJobTask: Code[20];
         JobTask: Record "Job Task";
-        TxtConfirmMovement: TextConst DEU = 'Ausgewählte Zeilen zu Aufgabe %1 verschieben?', ENU = 'Move selected lines to Job Task %1?';
-        TxtNoLinesSelected: TextConst DEU = 'Sie müssen für diese Funktion Zeilen auswählen.', ENU = 'You have to select lines for this function.';
-        TxtMoveNotPossible: TextConst DEU = 'Zeilen können nicht von %1 nach %2 verschoben werden', ENU = 'You cannot move from %1 to %2';
+        TxtConfirmMovement: Label 'Move selected lines to Job Task %1?';
+        TxtNoLinesSelected: Label 'You have to select lines for this function.';
+        TxtMoveNotPossible: Label 'You cannot move from %1 to %2';
 
     procedure MoveSelected(ToJobTask: Code[20])
     var

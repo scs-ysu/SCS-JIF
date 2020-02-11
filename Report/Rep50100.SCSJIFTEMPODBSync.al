@@ -24,18 +24,15 @@ report 50100 "SCSJIFTEMPO - DB Sync"
             {
                 group(Parameters)
                 {
-                    CaptionML = DEU = 'Parameter',
-                                ENU = 'Parameters';
+                    Caption = 'Parameters';
                     field(FromDate; FromDate)
                     {
-                        CaptionML = DEU = 'Von Datum',
-                                    ENU = 'From Date';
+                        Caption = 'From Date';
                         NotBlank = true;
                     }
                     field(ToDate; ToDate)
                     {
-                        CaptionML = DEU = 'Bis Datum',
-                                    ENU = 'To Date';
+                        Caption = 'To Date';
                     }
                 }
             }

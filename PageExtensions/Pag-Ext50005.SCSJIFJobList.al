@@ -19,8 +19,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
             {
                 ApplicationArea = All;
                 BlankZero = true;
-                CaptionML = DEU = 'Verfügbar (VK)',
-                                ENU = 'Available Value (Total Price)';
+                Caption = 'Available Value (Total Price)';
                 Editable = false;
                 StyleExpr = ConsumedPercentageTotalPriceStyle;
             }
@@ -28,8 +27,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
             {
                 ApplicationArea = All;
                 BlankZero = true;
-                CaptionML = DEU = '% Verbraucht (VK)',
-                                ENU = '% Consumed (Total Price)';
+                Caption = '% Consumed (Total Price)';
                 Editable = false;
                 StyleExpr = ConsumedPercentageTotalPriceStyle;
             }
@@ -82,8 +80,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(Action1000000012)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Projektaufgabenzei&len',
-                                ENU = 'Job Task &Lines';
+                    Caption = 'Job Task &Lines';
                     Image = TaskList;
                     Promoted = true;
                     PromotedCategory = Category4;
@@ -99,8 +96,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
             action("SCS_CreateJobSalesInvoice")
             {
                 ApplicationArea = All;
-                CaptionML = DEU = 'Projektverkauf&srechnung erstellen',
-                                ENU = 'SCS Create Job &Sales Invoice';
+                Caption = 'SCS Create Job &Sales Invoice';
                 Description = 'SCS1.00: moved action to C/AL';
                 Image = CreateJobSalesInvoice;
                 Promoted = true;
@@ -124,14 +120,12 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
         {
             group("JIRA/Tempo")
             {
-                CaptionML = DEU = 'JIRA/Tempo',
-                            ENU = 'JIRA/Tempo';
+                Caption = 'JIRA/Tempo';
                 Image = "Report";
                 action(SynchronizeJob)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Projekt synchronisieren',
-                                ENU = 'Synchronize Job';
+                    Caption = 'Synchronize Job';
                     Image = ImportDatabase;
                     Promoted = true;
                     PromotedCategory = Category5;
@@ -176,8 +170,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(AccountsIinError)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Accounts in Error',
-                                ENU = 'Accounts In Error';
+                    Caption = 'Accounts In Error';
                     Image = ErrorLog;
                     Promoted = true;
                     PromotedCategory = Category5;
@@ -194,8 +187,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(ProcessingLog)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Sync. Protokoll',
-                                ENU = 'Synchronization Log';
+                    Caption = 'Synchronization Log';
                     Promoted = true;
                     PromotedCategory = Category5;
                     RunObject = Page "SCSJIF Tempo - Processing Log";
@@ -203,8 +195,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(OpenJira)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'JIRA starten',
-                                ENU = 'Go to JIRA';
+                    Caption = 'Go to JIRA';
                     Image = LaunchWeb;
                     Promoted = true;
                     PromotedCategory = Category5;
@@ -221,8 +212,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(TempoCustomerSetup)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Tempo Kunden -  Konfiguration',
-                                ENU = 'Tempo Customer Setup';
+                    Caption = 'Tempo Customer Setup';
                     Image = Setup;
                     Promoted = true;
                     PromotedCategory = Category5;
@@ -232,8 +222,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(TempoIntegrationSetup)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Tempo Integration - Konfiguration',
-                                ENU = 'Tempo Integration Setup';
+                    Caption = 'Tempo Integration Setup';
                     Image = Setup;
                     Promoted = true;
                     PromotedCategory = Category5;
@@ -246,8 +235,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(PlanningLines2InvoiceExt)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Planungszeilen zu berechnen (externe Sicht)',
-                                ENU = 'Planning Lines to be invoiced (External View)';
+                    Caption = 'Planning Lines to be invoiced (External View)';
                     Image = List;
                     Promoted = true;
                     PromotedCategory = Category6;
@@ -256,8 +244,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(AllPlanningLinesExt)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Planungszeilen (externe Sicht)',
-                                ENU = 'Planning Lines (External View)';
+                    Caption = 'Planning Lines (External View)';
                     Image = List;
                     Promoted = true;
                     PromotedCategory = Category6;
@@ -267,8 +254,7 @@ pageextension 50005 "SCSJIF Job List" extends "Job List"
                 action(AllPlanningLinesInt)
                 {
                     ApplicationArea = All;
-                    CaptionML = DEU = 'Planungszeilen (interne Sicht)',
-                                ENU = 'Planning Lines (Internal View)';
+                    Caption = 'Planning Lines (Internal View)';
                     Image = List;
                     Promoted = true;
                     PromotedCategory = Category6;

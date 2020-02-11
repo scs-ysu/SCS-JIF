@@ -12,25 +12,25 @@ codeunit 50102 "SCSJIFEvent Subscribers"
     end;
 
     var
-        Txt_Posting_ConfirmDateBeforeWorkDate: TextConst DEU = '%1 (%2) liegt vor dem Arbeitsdatum (%3). Wollen Sie dies wirklich buchen?', ENU = '%1 (%2) is earlier than Work Date (%3). Are you sure you want to post this?';
-        Txt_Posting_ErrorDateBeforeWorkDate: TextConst DEU = '%1 (%2) liegt vor dem Arbeitsdatum (%3). Buchung abgebrochen.', ENU = '%1 (%2) is earlier than Work Date (%3). Posting aborted.';
-        Text_Releasing_ConfirmExpiryDateEarly: TextConst DEU = 'Das %1 (%2) liegt vor dem Firmen-Vorgabewert (%3). Dennoch benutzen?', ENU = '%1 (%2) is earlier than company default (%3). Are you sure you want to use this date?';
-        Text_Releasing_ErrorExpiryDateEarly: TextConst DEU = 'Das %1 (%2) liegt vor dem Firmen-Vorgabewert (%3). Freigabe abgebrochen.', ENU = '%1 (%2) is earlier than company default (%3). Release aborted.';
-        Txt_Releasing_ConfirmDateBeforeWorkDate: TextConst DEU = '%1 (%2) liegt vor dem Arbeitsdatum (%3). Wollen Sie dies wirklich freigeben?', ENU = '%1 (%2) is earlier than Work Date (%3). Are you sure you want to release this?';
-        Txt_Releasing_ErrorDateBeforeWorkDate: TextConst DEU = '%1 (%2) liegt vor dem Arbeitsdatum (%3). Freigabe abgebrochen.', ENU = '%1 (%2) is earlier than Work Date (%3). Release aborted.';
-        Txt_Releasing_Confirm_EstimationPrecisionClassMissing: TextConst DEU = 'Nicht alle relevanten Zeilen sind einer %1 zugeordnet. Wollen Sie dies wirklich freigeben?', ENU = 'Not all relevant lines have a %1 assigned. Are you sure that you want to continue?';
-        Txt_Releasing_Error_EstimationPrecisionClassMissing: TextConst DEU = 'Nicht alle relevanten Zeilen sind einer %1 zugeordnet. Freigabe abgebrochen.', ENU = 'Not all relevant lines have a %1 assigned. Release aborted.';
-        Txt_Posting_ConfirmNoExtDocNumber: TextConst DEU = '%1 ist nicht angegeben, wollen Sie wirklich buchen?', ENU = '%1 does not have a value. Are you sure you want to post this?';
-        Txt_Posting_ErrorNoExtDocNumber: TextConst DEU = '%1 ist nicht angegeben. Buchung abgebrochen.', ENU = '%1 does not have a value. Posting aborted.';
+        Txt_Posting_ConfirmDateBeforeWorkDate: Label '%1 (%2) is earlier than Work Date (%3). Are you sure you want to post this?';
+        Txt_Posting_ErrorDateBeforeWorkDate: Label '%1 (%2) is earlier than Work Date (%3). Posting aborted.';
+        Text_Releasing_ConfirmExpiryDateEarly: Label '%1 (%2) is earlier than company default (%3). Are you sure you want to use this date?';
+        Text_Releasing_ErrorExpiryDateEarly: Label '%1 (%2) is earlier than company default (%3). Release aborted.';
+        Txt_Releasing_ConfirmDateBeforeWorkDate: Label '%1 (%2) is earlier than Work Date (%3). Are you sure you want to release this?';
+        Txt_Releasing_ErrorDateBeforeWorkDate: Label '%1 (%2) is earlier than Work Date (%3). Release aborted.';
+        Txt_Releasing_Confirm_EstimationPrecisionClassMissing: Label 'Not all relevant lines have a %1 assigned. Are you sure that you want to continue?';
+        Txt_Releasing_Error_EstimationPrecisionClassMissing: Label 'Not all relevant lines have a %1 assigned. Release aborted.';
+        Txt_Posting_ConfirmNoExtDocNumber: Label '%1 does not have a value. Are you sure you want to post this?';
+        Txt_Posting_ErrorNoExtDocNumber: Label '%1 does not have a value. Posting aborted.';
         //SCS Migration chnages
-        Txt_FiledCaptionChange: TextConst DEU = '%1 und %2 dieses Elements vom Typ %3 k”nnen nicht ge„ndert werden.', ENU = 'You cannot change the %1 or %2 of this %3.';
+        Txt_FiledCaptionChange: Label 'You cannot change the %1 or %2 of this %3.';
         TxtDocumentTypeNotSupported: Label 'Type of sales document (%1) is not supported.';
         TxtPlanningLineTypeNotSupported: Label 'Type of Planning Line (%1) is not supported.';
-        TxtLinkedSalesLine: TextConst DEU = 'Die Verkaufszeile kann nicht geändert werden, weil sie verknüpft ist mit\', ENU = 'You cannot change the sales line because it is linked to\';
-        TxtPlannLineEr: TextConst DEU = ' %1: %2= %3, %4= %5.', ENU = ' %1: %2= %3, %4= %5.';
+        TxtLinkedSalesLine: Label 'You cannot change the sales line because it is linked to\';
+        TxtPlannLineEr: Label ' %1: %2= %3, %4= %5.';
         TxtJobTaskDesc: Label 'Job %1, task %2';
-        Txt_SalesDocIsNotReleased: TextConst DEU = '%1 %2 ist nicht freigegeben. Sind Sie sicher, dass Sie fortsetzen wollen?', ENU = '%1 %2 has not been released. Are you sure that you want to continue?';
-        Txt_Error_SalesDocIsNotReleased: TextConst DEU = '%1 %2 ist nicht freigegeben. Druck abgebrochen.', ENU = '%1 %2 has not been released. Printing aborted.';
+        Txt_SalesDocIsNotReleased: Label '%1 %2 has not been released. Are you sure that you want to continue?';
+        Txt_Error_SalesDocIsNotReleased: Label '%1 %2 has not been released. Printing aborted.';
 
 
         TempJobPlanningLine: Record "Job Planning Line" temporary;
